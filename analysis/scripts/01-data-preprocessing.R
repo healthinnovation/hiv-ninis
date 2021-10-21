@@ -149,16 +149,5 @@ dataset <-
   dataset %>% 
   mutate(
     across(where(is.character), ~ stri_trans_general(. , id = "Latin-ASCII"))
-  ) %>% 
-  mutate(
-    type_place_residence = replace(
-      type_place_residence,
-      type_place_residence %in% c('Urban', 'Urbana'),
-      'Urbano'
-    ),
-    childhood_place_residence = replace(
-      childhood_place_residence,
-      childhood_place_residence %in% c('Urban', 'Urbana'),
-      'Urbano'
-    )
-  )
+  ) 
+
