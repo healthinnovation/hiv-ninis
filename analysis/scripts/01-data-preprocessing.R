@@ -143,7 +143,7 @@ na_percent <- apply(
 
 na_percent_dtfrm <- 
   tibble(variable = names(dataset), na_percent) %>% 
-  arrange(desc(na_percent))
+  arrange(na_percent)
 
 dataset <- 
   dataset %>% 
@@ -151,3 +151,5 @@ dataset <-
     across(where(is.character), ~ stri_trans_general(. , id = "Latin-ASCII"))
   ) 
 
+View(variable_names)
+table(dataset$years_lived_place_residence)
