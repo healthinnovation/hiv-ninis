@@ -5,6 +5,7 @@ library(dplyr)
 library(data.table)
 library(readr)
 library(stringi)
+library(tidyr)
 
 # Read raw surveys --------------------------------------------------------
 
@@ -22,6 +23,14 @@ variables_path <- path("data", "variables")
 variables_files <- dir_ls(variables_path, recurse = TRUE, glob = "*.txt")
 variables <- map(variables_files, scan, what = character(), quiet = TRUE)
 names(variables) <- path_ext_remove(path_file(variables_files))
+
+survey_dtfrs <- list()
+for (survey_name in names(variables)) {
+  survey <- rep(survey_name, length(variables[[survey_name]]))
+  survey_dtfrs[[survey_name]] <- 
+    tibble(survey, variable = variables[[survey_name]])
+}
+survey_variables <- bind_rows(survey_dtfrs)
 
 # Initial format and merge by survey name ---------------------------------
 
@@ -42,7 +51,7 @@ for(survey in names(surveys_raw)) {
   
   surveys_raw[[survey]] <- 
     surveys_raw[[survey]] %>% 
-    as_factor() %>% 
+    # as_factor() %>% 
     mutate(across(everything(), as.character)) %>% 
     mutate(across(everything(), ~ trimws(.x, which = "both")))
 }
@@ -60,30 +69,13 @@ for (survey in endes_surveys) {
 surveys_merged <- list()
 for (survey in names(surveys)) {
   print(survey)
-  surveys_merged[[survey]] <- bind_rows(surveys[[survey]])
-}
-
-# Parse and select variables ----------------------------------------------
-
-is_numeric <- function(x) {
-  if (sum(grepl("^[0a-zA-Z].*", x)) > 0) {
-    FALSE
-  } else {
-    TRUE
-  }
-}
-
-for (survey in names(surveys_merged)) {
-  print(survey)
-  
   surveys_merged[[survey]] <- 
-    surveys_merged[[survey]] %>% 
+    bind_rows(surveys[[survey]]) %>% 
     mutate(
       YEAR = substr(PATH, 16, 19),
       MODULE = path_file(path_dir(PATH)),
       SURVEY = path_ext_remove(path_file(PATH))
-    ) %>% 
-    mutate(across(where(is_numeric), as.numeric))
+    )
 }
 
 # Join surveys ------------------------------------------------------------
@@ -109,11 +101,12 @@ dataset_raw <-
   select(!starts_with(c('PATH', 'MODULE', 'SURVEY')))
 
 
-# Filter variables with NAs -----------------------------------------------
+# Filter variables with high rate of missing values ------------------------
 
 na_percent_raw <- apply(
   dataset_raw, 2, function(x) sum(is.na(x)) / nrow(dataset_raw)
 )
+
 to_filter <-
   names(which(na_percent_raw > 0.8))[
     !names(which(na_percent_raw > 0.8)) %in% c(
@@ -122,7 +115,19 @@ to_filter <-
     )
   ]
 
-dataset <- select(dataset_raw, !any_of(to_filter))
+dataset_values <- select(dataset_raw, !any_of(to_filter))
+
+
+# Check rate of missing values --------------------------------------------
+
+# na_percent <- apply(
+#   dataset, 2, function(x) round(100 * sum(is.na(x)) / nrow(dataset), 2)
+# ) 
+# 
+# na_percent_dtfrm <- 
+#   tibble(variable = names(dataset), na_percent) %>% 
+#   arrange(na_percent)
+
 
 # Set variable names ------------------------------------------------------
 
@@ -130,26 +135,59 @@ variable_names_path <- path(variables_path, 'variable-names.csv')
 variable_names <- read_csv(variable_names_path)
 
 for (i in seq(nrow(variable_names))) {
-  names(dataset)[names(dataset) == variable_names$variable[i]] <- 
+  names(dataset_values)[names(dataset_values) == variable_names$variable[i]] <- 
     variable_names$variable_name[i]
 }
 
+# Set variable values -----------------------------------------------------
 
-# Format fields -----------------------------------------------------------
+variable_values_path <- path(variables_path, 'variable-values.csv')
+variable_values <- read_csv(variable_values_path)
 
-na_percent <- apply(
-  dataset, 2, function(x) round(100 * sum(is.na(x)) / nrow(dataset), 2)
-) 
+dataset <- tibble(dataset_values)
 
-na_percent_dtfrm <- 
-  tibble(variable = names(dataset), na_percent) %>% 
-  arrange(na_percent)
+for (i in 1:nrow(variable_values)) {
+  variable_name <- variable_values$variable_name[i]
+  value <- as.character(variable_values$values[i])
+  value_description <- variable_values$value_description[i]
+  
+  dataset[variable_name][dataset[variable_name] == value] <- value_description
+}
 
-dataset <- 
-  dataset %>% 
-  mutate(
-    across(where(is.character), ~ stri_trans_general(. , id = "Latin-ASCII"))
-  ) 
 
-View(variable_names)
-table(dataset$years_lived_place_residence)
+# Get values for all variables --------------------------------------------
+
+# dataset %>% 
+#   select(!c(wealth_index_scoring_factor, weighting_factor, year)) %>% 
+#   pivot_longer(
+#     cols = !caseid,
+#     names_to = "variable_name",
+#     values_to = "value"
+#   ) %>% 
+#   group_by(variable_name) %>% 
+#   summarise(values = sort(as.numeric(unique(value))), .groups = "drop") %>% 
+#   left_join(variable_names, by = "variable_name") %>% 
+#   left_join(survey_variables, by = "variable") %>% 
+#   select(survey, variable, variable_name, values) %>% 
+#   arrange(survey, variable, values) %>% 
+#   write.csv("data/interim/variable-values.csv", row.names = FALSE)
+
+
+
+# is_numeric function------------------------------------------------------
+
+# is_numeric <- function(x) {
+#   if (sum(grepl("^[0a-zA-Z].*", x)) > 0) {
+#     FALSE
+#   } else {
+#     TRUE
+#   }
+# }
+
+
+# Filter and parsing (numeric) variables ----------------------------------
+
+# Export wrangled dataset
+
+write.csv(dataset, 'data/processed/hiv-ninis-dataset.csv', row.names = FALSE)
+
