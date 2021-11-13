@@ -3,16 +3,196 @@ title: "Exploratory Data Analysis"
 output: html_notebook
 ---
 
-This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
-
-Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*. 
-
 ```{r}
-plot(cars)
+library(fs)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(scales)
+library(sf)
 ```
 
-Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Ctrl+Alt+I*.
+```{r}
+dataset <- read_csv('../../data/processed/hiv-ninis-dataset.csv')
+```
 
-When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Ctrl+Shift+K* to preview the HTML file).
+```{r}
+dataset$age <- as.numeric(dataset$age)
+summary(dataset$age)
+```
 
-The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+```{r}
+table(dataset$year)
+```
+
+```{r}
+dataset_eda <- 
+  dataset %>% 
+  mutate(
+    nini = 
+      ifelse(
+        (age >= 15) & (age <= 24) & (currently_attending_school == 'No') &
+          (respondent_currently_working == 'No'),
+        'Yes', 'No'
+      ),
+    wealth_index = factor(
+      wealth_index, 
+      c('Poorest', 'Poor', 'Middle', 'Rich', 'Richest')
+    ),
+    natural_region = factor(
+      natural_region,
+      c('Lima Metropolitan Area', 'Rest of Coast', 'Highland', 'Jungle')
+    ),
+    highest_edu_level = factor(
+      highest_edu_level,
+      c('No education', 'Primary', 'Secondary', 'Higher')
+    ),
+    year = factor(
+      year,
+      as.character(2015:2020)
+    )
+  ) 
+```
+
+```{r}
+table(dataset_eda$nini, useNA = "ifany")
+100 * table(dataset_eda$nini, useNA = "ifany") / nrow(dataset_eda)
+```
+
+```{r}
+dataset_eda <- filter(dataset_eda, !is.na(nini))
+```
+
+```{r}
+dataset_eda %>% 
+  group_by(wealth_index, nini) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(wealth_index, prop, fill = nini)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent)
+```
+
+```{r}
+dataset_eda %>% 
+  group_by(natural_region, nini) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(natural_region, prop, fill = nini)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent)
+```
+
+```{r}
+dataset_eda %>% 
+  group_by(region, nini) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(region, prop, fill = nini)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent) +
+  coord_flip()
+```
+
+```{r}
+dataset_eda %>% 
+  group_by(highest_edu_level, nini) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(highest_edu_level, prop, fill = nini)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent)
+```
+
+```{r}
+table(dataset_eda$ever_been_tested_aids, useNA = 'ifany')
+100 * table(dataset_eda$ever_been_tested_aids, useNA = 'ifany') / nrow(dataset_eda)
+```
+
+```{r}
+dataset_eda %>% 
+  group_by(nini, ever_been_tested_aids) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(nini, prop, fill = ever_been_tested_aids)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent)
+```
+
+```{r}
+dataset_eda %>% 
+  filter(!is.na(diagnosed_std_last_12_months)) %>% 
+  group_by(nini, diagnosed_std_last_12_months) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(nini, prop, fill = diagnosed_std_last_12_months)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent)
+```
+
+```{r}
+dataset_eda %>% 
+  group_by(region, ever_been_tested_aids) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(region, prop, fill = ever_been_tested_aids)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent) +
+  coord_flip()
+```
+
+```{r fig.height=3, fig.width=10}
+dataset_eda %>% 
+  group_by(wealth_index, nini, ever_been_tested_aids) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(nini, prop, fill = ever_been_tested_aids)) +
+  facet_wrap(vars(wealth_index), ncol = 6) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent)
+```
+
+```{r}
+dataset_eda %>% 
+  group_by(year, nini) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(year, prop, fill = nini)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent)
+```
+
+```{r}
+dataset_eda %>% 
+  group_by(year, ever_been_tested_aids) %>% 
+  summarize(cases = n()) %>% 
+  mutate(prop = cases / sum(cases)) %>% 
+  ungroup() %>% 
+  ggplot(aes(year, prop, fill = ever_been_tested_aids)) +
+  geom_bar(stat = "identity", position = "stack") + 
+  scale_y_continuous(labels = percent)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
