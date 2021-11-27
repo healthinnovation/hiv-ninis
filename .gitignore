@@ -43,5 +43,6 @@ renv/*
 !renv/activate.R
 
 # Data
-data/
+data/interim/*.csv
+data/processed/*.csv
 
