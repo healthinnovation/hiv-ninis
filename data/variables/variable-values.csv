@@ -1,698 +1,931 @@
-survey,variable,variable_name,type,value,value_description
-RE516171,V704,partner_occupation,character,0,Other / Does not work / Unspecified
-RE516171,V704,partner_occupation,character,1,Armed Forces
-RE516171,V704,partner_occupation,character,2,Police Forces
-RE516171,V704,partner_occupation,character,5,Pensioner / Retired / Rentier / Student
-RE516171,V704,partner_occupation,character,11,Member of the Executive Branch/Legislative Branch
-RE516171,V704,partner_occupation,character,12,Company Director (with 3 or more Directors)
-RE516171,V704,partner_occupation,character,13,Director of Education
-RE516171,V704,partner_occupation,character,14,Small Business Manager (Workshops)
-RE516171,V704,partner_occupation,character,21,"Physical, Chemical or Mathematical Sciences Professional/Civil Engineer/Architect"
-RE516171,V704,partner_occupation,character,22,Engineer (excluding Civil Engineer)
-RE516171,V704,partner_occupation,character,23,"Biological, Medical or Health Sciences Professional"
-RE516171,V704,partner_occupation,character,24,Teacher and/or Pedagogue / Education Assistant
-RE516171,V704,partner_occupation,character,25,Lawyer / Economic or Management Sciences Professional
-RE516171,V704,partner_occupation,character,26,Librarian / Social Scientist / Journalist / Psychologist
-RE516171,V704,partner_occupation,character,27,Artist / Sculptor / Musician
-RE516171,V704,partner_occupation,character,28,Tourism and Hospitality / Public Relations / Diplomat / Priest
-RE516171,V704,partner_occupation,character,31,"Physical, Chemical or Mathematical Sciences / Engineering Technician"
-RE516171,V704,partner_occupation,character,32,Specialized Equipment Operator / Photographer
-RE516171,V704,partner_occupation,character,33,"Maritime Navigation and Aeronautics Technician / Safety, Health and Quality Control Inspector"
-RE516171,V704,partner_occupation,character,34,Biological Sciences Technician
-RE516171,V704,partner_occupation,character,35,Medical or Health Sciences Technician/Technical Nursing
-RE516171,V704,partner_occupation,character,36,"Head of Sales / Administration, Accounting, Economics or Financial and Commercial Operations Technician"
-RE516171,V704,partner_occupation,character,37,Administrative Services Agent (AFP Pension Advisor)
-RE516171,V704,partner_occupation,character,38,Administrative Assistant
-RE516171,V704,partner_occupation,character,39,Entertainment Artist or Worker / Athlete / Religious Cult Assistant
-RE516171,V704,partner_occupation,character,41,Head of Administrative Units / Clerk / Secretary / Typewriter / Computer Typewriter
-RE516171,V704,partner_occupation,character,42,Administrative Staff
-RE516171,V704,partner_occupation,character,43,Head of Transportation Services / Microbus Controller
-RE516171,V704,partner_occupation,character,44,Head of Postal Services / Library or Printing Worker / Postmen / Messenger
-RE516171,V704,partner_occupation,character,45,Cashier / Receptionist / Telephone Operator / Collector (excluding Microbus Collector)
-RE516171,V704,partner_occupation,character,46,Office Clerk in Field Operation or other Clerk Job / Pollster / Recorder / Field Supervisor
-RE516171,V704,partner_occupation,character,51,Passenger Direct Service Staff / Tourist Guide / Flight Attendant
-RE516171,V704,partner_occupation,character,52,Chief / Bursar / Butler / Host / Waiter
-RE516171,V704,partner_occupation,character,53,Personal Care Worker / Nursing Assistant / Dental Office Assistant
-RE516171,V704,partner_occupation,character,54,Hairdresser / Beaty Treatment Specialist
-RE516171,V704,partner_occupation,character,55,Miscellaneous Service Workers / Model / Funeral Arrangements / Cartomancy
-RE516171,V704,partner_occupation,character,56,Protection and Security Services Staff / Firefighter / Municipal Police / Serenazgo / Private Police
-RE516171,V704,partner_occupation,character,57,Wholesale or Retail Merchant / Kiosk Vendor / Market Stall Vendor
-RE516171,V704,partner_occupation,character,58,Merchant or Seller (Non-ambulatory) / Commissioned Seller / Agent / Not classified under other heading
-RE516171,V704,partner_occupation,character,61,Farmer / Qualified Worker of Extensive Crops / Agricultural Laborer / Forestry Laborer
-RE516171,V704,partner_occupation,character,62,Animal Breeder / Qualified Livestock Worker of Animal Husbandry
-RE516171,V704,partner_occupation,character,63,"Fisherman / Hunter / Trapper / Fishing, Hunting or Trapping Worker"
-RE516171,V704,partner_occupation,character,71,Miner / Stonecutter / Geotechnical Surveyor
-RE516171,V704,partner_occupation,character,72,Wood Processing / Paper Manufacturing Worker
-RE516171,V704,partner_occupation,character,73,Chemical Treatment Worker
-RE516171,V704,partner_occupation,character,74,Spinner / Weaver / Dyer
-RE516171,V704,partner_occupation,character,75,"Leather Preparation, Tanning and Treatment Worker"
-RE516171,V704,partner_occupation,character,76,Food and Beverage Processing Worker / Butcher / Baker / Pastry Cook
-RE516171,V704,partner_occupation,character,77,Shoemaker / Tailor / Dessmaker / Furrier / Cabinetmaker / Upholster / Hatter
-RE516171,V704,partner_occupation,character,78,Laborer / Mechanic / Metal Worker / Vehicle Mechanic
-RE516171,V704,partner_occupation,character,79,"Adjuster, Assembler or Installer of Precision Machines or Instruments / Watchmaker / Jeweler / Silversmith"
-RE516171,V704,partner_occupation,character,81,Rubber and Plastic Product Manufacturing Worker / Musical Instrumets Maker / Painter / Machinery Driver
-RE516171,V704,partner_occupation,character,82,Paper and Cardboard Product Manufacturer
-RE516171,V704,partner_occupation,character,83,Graphical Arts Worker / Photographer (excluding Traveling Photographer)
-RE516171,V704,partner_occupation,character,84,Not Classified Worker
-RE516171,V704,partner_occupation,character,85,Building / Theater / Metal Building / Car Painter (Brush or Roller)
-RE516171,V704,partner_occupation,character,86,Construction Worker / Bricklayer / Carpenter / Cabinetmaker
-RE516171,V704,partner_occupation,character,87,Agricultural / Fixed Machine / Handling of Goods and Materials Operator
-RE516171,V704,partner_occupation,character,88,Transport Driver / Driver / Taxi Driver
-RE516171,V704,partner_occupation,character,91,Peddler
-RE516171,V704,partner_occupation,character,93,Transport Collector / Microbus Collector
-RE516171,V704,partner_occupation,character,94,Household Employee / Cleaner / Laundryman / Ironer / Shoe Shinner / Traveling Photographer / Gardener
-RE516171,V704,partner_occupation,character,95,Messenger / Deliveryman / Porter / Meter Reader / Guardian
-RE516171,V704,partner_occupation,character,96,Trash Collector
-RE516171,V704,partner_occupation,character,98,Mining / Electricity / Gas and Water Supply / Construction / Manufacturing / Transportation Worker
-RE516171,V704,partner_occupation,character,99,Missing
-RE516171,V705,standardized_partner_occupation,character,0,Does not work
-RE516171,V705,standardized_partner_occupation,character,1,Professional / Technician / Manager
-RE516171,V705,standardized_partner_occupation,character,2,Ecclesiastical
-RE516171,V705,standardized_partner_occupation,character,3,Sales
-RE516171,V705,standardized_partner_occupation,character,4,Farmer / Self-employed
-RE516171,V705,standardized_partner_occupation,character,6,Household Employee
-RE516171,V705,standardized_partner_occupation,character,7,Services
-RE516171,V705,standardized_partner_occupation,character,8,With manual skills
-RE516171,V705,standardized_partner_occupation,character,9,Without manual skills
-RE516171,V714,respondent_currently_working,character,0,No
-RE516171,V714,respondent_currently_working,character,1,Yes
-RE516171,V714A,repondent_job_absent,character,0,No
-RE516171,V714A,repondent_job_absent,character,1,Yes
-RE516171,V715,single_years_edu_partner,numeric,98,Don't know
-RE516171,V716,respondent_occupation,character,0,Other / Does not work / Unspecified
-RE516171,V716,respondent_occupation,character,1,Armed Forces
-RE516171,V716,respondent_occupation,character,2,Police Forces
-RE516171,V716,respondent_occupation,character,5,Pensioner / Retired / Rentier / Student
-RE516171,V716,respondent_occupation,character,11,Member of the Executive Branch/Legislative Branch
-RE516171,V716,respondent_occupation,character,12,Company Director (with 3 or more Directors)
-RE516171,V716,respondent_occupation,character,13,Director of Education
-RE516171,V716,respondent_occupation,character,14,Small Business Manager (Workshops)
-RE516171,V716,respondent_occupation,character,21,"Physical, Chemical or Mathematical Sciences Professional/Civil Engineer/Architect"
-RE516171,V716,respondent_occupation,character,22,Engineer (excluding Civil Engineer)
-RE516171,V716,respondent_occupation,character,23,"Biological, Medical or Health Sciences Professional"
-RE516171,V716,respondent_occupation,character,24,Teacher and/or Pedagogue / Education Assistant
-RE516171,V716,respondent_occupation,character,25,Lawyer / Economic or Management Sciences Professional
-RE516171,V716,respondent_occupation,character,26,Librarian / Social Scientist / Journalist / Psychologist
-RE516171,V716,respondent_occupation,character,27,Artist / Sculptor / Musician
-RE516171,V716,respondent_occupation,character,28,Tourism and Hospitality / Public Relations / Diplomat / Priest
-RE516171,V716,respondent_occupation,character,31,"Physical, Chemical or Mathematical Sciences / Engineering Technician"
-RE516171,V716,respondent_occupation,character,32,Specialized Equipment Operator / Photographer
-RE516171,V716,respondent_occupation,character,33,"Maritime Navigation and Aeronautics Technician / Safety, Health and Quality Control Inspector"
-RE516171,V716,respondent_occupation,character,34,Biological Sciences Technician
-RE516171,V716,respondent_occupation,character,35,Medical or Health Sciences Technician/Technical Nursing
-RE516171,V716,respondent_occupation,character,36,"Head of Sales / Administration, Accounting, Economics or Financial and Commercial Operations Technician"
-RE516171,V716,respondent_occupation,character,37,Administrative Services Agent (AFP Pension Advisor)
-RE516171,V716,respondent_occupation,character,38,Administrative Assistant
-RE516171,V716,respondent_occupation,character,39,Entertainment Artist or Worker / Athlete / Religious Cult Assistant
-RE516171,V716,respondent_occupation,character,41,Head of Administrative Units / Clerk / Secretary / Typewriter / Computer Typewriter
-RE516171,V716,respondent_occupation,character,42,Administrative Staff
-RE516171,V716,respondent_occupation,character,43,Head of Transportation Services / Microbus Controller
-RE516171,V716,respondent_occupation,character,44,Head of Postal Services / Library or Printing Worker / Postmen / Messenger
-RE516171,V716,respondent_occupation,character,45,Cashier / Receptionist / Telephone Operator / Collector (excluding Microbus Collector)
-RE516171,V716,respondent_occupation,character,46,Office Clerk in Field Operation or other Clerk Job / Pollster / Recorder / Field Supervisor
-RE516171,V716,respondent_occupation,character,51,Passenger Direct Service Staff / Tourist Guide / Flight Attendant
-RE516171,V716,respondent_occupation,character,52,Chief / Bursar / Butler / Host / Waiter
-RE516171,V716,respondent_occupation,character,53,Personal Care Worker / Nursing Assistant / Dental Office Assistant
-RE516171,V716,respondent_occupation,character,54,Hairdresser / Beaty Treatment Specialist
-RE516171,V716,respondent_occupation,character,55,Miscellaneous Service Workers / Model / Funeral Arrangements / Cartomancy
-RE516171,V716,respondent_occupation,character,56,Protection and Security Services Staff / Firefighter / Municipal Police / Serenazgo / Private Police
-RE516171,V716,respondent_occupation,character,57,Wholesale or Retail Merchant / Kiosk Vendor / Market Stall Vendor
-RE516171,V716,respondent_occupation,character,58,Merchant or Seller (Non-ambulatory) / Commissioned Seller / Agent / Not classified under other heading
-RE516171,V716,respondent_occupation,character,61,Farmer / Qualified Worker of Extensive Crops / Agricultural Laborer / Forestry Laborer
-RE516171,V716,respondent_occupation,character,62,Animal Breeder / Qualified Livestock Worker of Animal Husbandry
-RE516171,V716,respondent_occupation,character,63,"Fisherman / Hunter / Trapper / Fishing, Hunting or Trapping Worker"
-RE516171,V716,respondent_occupation,character,71,Miner / Stonecutter / Geotechnical Surveyor
-RE516171,V716,respondent_occupation,character,72,Wood Processing / Paper Manufacturing Worker
-RE516171,V716,respondent_occupation,character,73,Chemical Treatment Worker
-RE516171,V716,respondent_occupation,character,74,Spinner / Weaver / Dyer
-RE516171,V716,respondent_occupation,character,75,"Leather Preparation, Tanning and Treatment Worker"
-RE516171,V716,respondent_occupation,character,76,Food and Beverage Processing Worker / Butcher / Baker / Pastry Cook
-RE516171,V716,respondent_occupation,character,77,Shoemaker / Tailor / Dessmaker / Furrier / Cabinetmaker / Upholster / Hatter
-RE516171,V716,respondent_occupation,character,78,Laborer / Mechanic / Metal Worker / Vehicle Mechanic
-RE516171,V716,respondent_occupation,character,79,"Adjuster, Assembler or Installer of Precision Machines or Instruments / Watchmaker / Jeweler / Silversmith"
-RE516171,V716,respondent_occupation,character,81,Rubber and Plastic Product Manufacturing Worker / Musical Instrumets Maker / Painter / Machinery Driver
-RE516171,V716,respondent_occupation,character,82,Paper and Cardboard Product Manufacturer
-RE516171,V716,respondent_occupation,character,83,Graphical Arts Worker / Photographer (excluding Traveling Photographer)
-RE516171,V716,respondent_occupation,character,84,Not Classified Worker
-RE516171,V716,respondent_occupation,character,85,Building / Theater / Metal Building / Car Painter (Brush or Roller)
-RE516171,V716,respondent_occupation,character,86,Construction Worker / Bricklayer / Carpenter / Cabinetmaker
-RE516171,V716,respondent_occupation,character,87,Agricultural / Fixed Machine / Handling of Goods and Materials Operator
-RE516171,V716,respondent_occupation,character,88,Transport Driver / Driver / Taxi Driver
-RE516171,V716,respondent_occupation,character,91,Peddler
-RE516171,V716,respondent_occupation,character,93,Transport Collector / Microbus Collector
-RE516171,V716,respondent_occupation,character,94,Household Employee / Cleaner / Laundryman / Ironer / Shoe Shinner / Traveling Photographer / Gardener
-RE516171,V716,respondent_occupation,character,95,Messenger / Deliveryman / Porter / Meter Reader / Guardian
-RE516171,V716,respondent_occupation,character,96,Trash Collector
-RE516171,V716,respondent_occupation,character,98,Mining / Electricity / Gas and Water Supply / Construction / Manufacturing / Transportation Worker
-RE516171,V716,respondent_occupation,character,99,Missing
-RE516171,V717,standardized_respondent_occupation,character,0,Does not work
-RE516171,V717,standardized_respondent_occupation,character,1,Professional / Technician / Manager
-RE516171,V717,standardized_respondent_occupation,character,2,Ecclesiastical
-RE516171,V717,standardized_respondent_occupation,character,3,Sales
-RE516171,V717,standardized_respondent_occupation,character,4,Farmer / Self-employed
-RE516171,V717,standardized_respondent_occupation,character,6,Household Employee
-RE516171,V717,standardized_respondent_occupation,character,7,Services
-RE516171,V717,standardized_respondent_occupation,character,8,With manual skills
-RE516171,V717,standardized_respondent_occupation,character,9,Without manual skills
-RE516171,V719,work_family_others_independent,character,1,For family member
-RE516171,V719,work_family_others_independent,character,2,For someone else
-RE516171,V719,work_family_others_independent,character,3,Self-employed
-RE516171,V721,work_home_away,character,1,At home
-RE516171,V721,work_home_away,character,2,Away
-RE516171,V731,work_last_12_months,character,0,No
-RE516171,V731,work_last_12_months,character,1,Worked in the last 12 months
-RE516171,V731,work_last_12_months,character,2,Currently working
-RE516171,V731,work_last_12_months,character,3,"Have a job, but on leave last 7 days"
-RE516171,V732,usually_work_all_year_seasonal_occasional,character,1,All year
-RE516171,V732,usually_work_all_year_seasonal_occasional,character,2,Seasonal
-RE516171,V732,usually_work_all_year_seasonal_occasional,character,3,Occasional
-RE516171,V739,who_decides_how_spend_money,character,1,Respondent alone
-RE516171,V739,who_decides_how_spend_money,character,2,Respondent and husband/partner
-RE516171,V739,who_decides_how_spend_money,character,3,Respondent and other person
-RE516171,V739,who_decides_how_spend_money,character,4,Husband/partner alone
-RE516171,V739,who_decides_how_spend_money,character,5,Someone else
-RE516171,V741,type_earnings_work,character,0,Not paid
-RE516171,V741,type_earnings_work,character,1,Cash only
-RE516171,V741,type_earnings_work,character,2,Cash and kind
-RE516171,V741,type_earnings_work,character,3,In kind only
-RE516171,V743A,final_say_health_care,character,0,Nobody
-RE516171,V743A,final_say_health_care,character,1,Respondent alone
-RE516171,V743A,final_say_health_care,character,2,Respondent and husband/partner
-RE516171,V743A,final_say_health_care,character,3,Respondent and other person
-RE516171,V743A,final_say_health_care,character,4,Husband/partner alone
-RE516171,V743A,final_say_health_care,character,5,Someone else
-RE516171,V743B,final_say_large_household_purchases,character,0,Nobody
-RE516171,V743B,final_say_large_household_purchases,character,1,Respondent alone
-RE516171,V743B,final_say_large_household_purchases,character,2,Respondent and husband/partner
-RE516171,V743B,final_say_large_household_purchases,character,3,Respondent and other person
-RE516171,V743B,final_say_large_household_purchases,character,4,Husband/partner alone
-RE516171,V743B,final_say_large_household_purchases,character,5,Someone else
-RE516171,V743C,final_say_household_puchases_daily_needs,character,0,Nobody
-RE516171,V743C,final_say_household_puchases_daily_needs,character,1,Respondent alone
-RE516171,V743C,final_say_household_puchases_daily_needs,character,2,Respondent and husband/partner
-RE516171,V743C,final_say_household_puchases_daily_needs,character,3,Respondent and other person
-RE516171,V743C,final_say_household_puchases_daily_needs,character,4,Husband/partner alone
-RE516171,V743C,final_say_household_puchases_daily_needs,character,5,Someone else
-RE516171,V743D,final_say_visit_family_friends_relatives,character,0,Nobody
-RE516171,V743D,final_say_visit_family_friends_relatives,character,1,Respondent alone
-RE516171,V743D,final_say_visit_family_friends_relatives,character,2,Respondent and husband/partner
-RE516171,V743D,final_say_visit_family_friends_relatives,character,3,Respondent and other person
-RE516171,V743D,final_say_visit_family_friends_relatives,character,4,Husband/partner alone
-RE516171,V743D,final_say_visit_family_friends_relatives,character,5,Someone else
-RE516171,V743E,final_say_food_cook_each_day,character,0,Nobody
-RE516171,V743E,final_say_food_cook_each_day,character,1,Respondent alone
-RE516171,V743E,final_say_food_cook_each_day,character,2,Respondent and husband/partner
-RE516171,V743E,final_say_food_cook_each_day,character,3,Respondent and other person
-RE516171,V743E,final_say_food_cook_each_day,character,4,Husband/partner alone
-RE516171,V743E,final_say_food_cook_each_day,character,5,Someone else
-RE516171,V743F,final_say_spent_money_partner,character,1,Respondent alone
-RE516171,V743F,final_say_spent_money_partner,character,2,Respondent and husband/partner
-RE516171,V743F,final_say_spent_money_partner,character,3,Respondent and other person
-RE516171,V743F,final_say_spent_money_partner,character,4,Husband/partner alone
-RE516171,V743F,final_say_spent_money_partner,character,5,Someone else
-RE516171,V743F,final_say_spent_money_partner,character,7,Husband/partner has no earnings
-RE516171,V744A,wife_beating_justified_goes_out_without_telling_him,character,0,No
-RE516171,V744A,wife_beating_justified_goes_out_without_telling_him,character,1,Yes
-RE516171,V744A,wife_beating_justified_goes_out_without_telling_him,character,8,Don't know
-RE516171,V744B,wife_beating_justified_neglects_children,character,0,No
-RE516171,V744B,wife_beating_justified_neglects_children,character,1,Yes
-RE516171,V744B,wife_beating_justified_neglects_children,character,8,Don't know
-RE516171,V744C,wife_beating_justified_argues_with_him,character,0,No
-RE516171,V744C,wife_beating_justified_argues_with_him,character,1,Yes
-RE516171,V744C,wife_beating_justified_argues_with_him,character,8,Don't know
-RE516171,V744D,wife_beating_justified_refuses_sex_with_him,character,0,No
-RE516171,V744D,wife_beating_justified_refuses_sex_with_him,character,1,Yes
-RE516171,V744D,wife_beating_justified_refuses_sex_with_him,character,8,Don't know
-RE516171,V744E,wife_beating_justified_burns_food,character,0,No
-RE516171,V744E,wife_beating_justified_burns_food,character,1,Yes
-RE516171,V744E,wife_beating_justified_burns_food,character,8,Don't know
-RE516171,V746,earn_more_less_equal_partner,character,1,More than him
-RE516171,V746,earn_more_less_equal_partner,character,2,Less than him
-RE516171,V746,earn_more_less_equal_partner,character,3,About the same
-RE516171,V746,earn_more_less_equal_partner,character,4,Partnet does not bring money
-RE516171,V746,earn_more_less_equal_partner,character,8,Don't know
-RE758081,V750,heard_hiv_infection,character,1,Yes
-RE758081,V751,heard_aids,character,1,Yes
-RE758081,V754BP,reduce_risk_aids_not_having_sex,character,0,No
-RE758081,V754BP,reduce_risk_aids_not_having_sex,character,1,Yes
-RE758081,V754BP,reduce_risk_aids_not_having_sex,character,8,Don't know
-RE758081,V754CP,reduce_risk_aids_using_condom,character,0,No
-RE758081,V754CP,reduce_risk_aids_using_condom,character,1,Yes
-RE758081,V754CP,reduce_risk_aids_using_condom,character,8,Don't know
-RE758081,V754DP,reduce_risk_aids_only_one_sex_partner,character,0,No
-RE758081,V754DP,reduce_risk_aids_only_one_sex_partner,character,1,Yes
-RE758081,V754DP,reduce_risk_aids_only_one_sex_partner,character,8,Don't know
-RE758081,V754JP,get_aids_mosquito_bites,character,0,No
-RE758081,V754JP,get_aids_mosquito_bites,character,1,Yes
-RE758081,V754JP,get_aids_mosquito_bites,character,8,Don't know
-RE758081,V756,healthy_looking_person_can_have_aids,character,0,No
-RE758081,V756,healthy_looking_person_can_have_aids,character,1,Yes
-RE758081,V756,healthy_looking_person_can_have_aids,character,8,Don't know
-RE758081,V761,last_intercourse_use_condom,character,0,No
-RE758081,V761,last_intercourse_use_condom,character,1,Yes
-RE758081,V762AA,source_condoms_hospital_minsa,character,0,No
-RE758081,V762AA,source_condoms_hospital_minsa,character,1,Yes
-RE758081,V762AB,source_condoms_health_center_minsa,character,0,No
-RE758081,V762AB,source_condoms_health_center_minsa,character,1,Yes
-RE758081,V762AE,source_condoms_health_worker_minsa,character,0,No
-RE758081,V762AE,source_condoms_health_worker_minsa,character,1,Yes
-RE758081,V762AF,source_condoms_other_public,character,0,No
-RE758081,V762AF,source_condoms_other_public,character,1,Yes
-RE758081,V762AG,source_condoms_health_post_minsa,character,0,No
-RE758081,V762AG,source_condoms_health_post_minsa,character,1,Yes
-RE758081,V762AH,source_condoms_hospital_essalud,character,0,No
-RE758081,V762AH,source_condoms_hospital_essalud,character,1,Yes
-RE758081,V762AI,source_condoms_health_center_post_essalud,character,0,No
-RE758081,V762AI,source_condoms_health_center_post_essalud,character,1,Yes
-RE758081,V762AJ,source_condomss_private_hospital_clinic,character,0,No
-RE758081,V762AJ,source_condomss_private_hospital_clinic,character,1,Yes
-RE758081,V762AK,source_condoms_pharmacy,character,0,No
-RE758081,V762AK,source_condoms_pharmacy,character,1,Yes
-RE758081,V762AL,source_condoms_private_doctor,character,0,No
-RE758081,V762AL,source_condoms_private_doctor,character,1,Yes
-RE758081,V762AO,source_condoms_other_private,character,0,No
-RE758081,V762AO,source_condoms_other_private,character,1,Yes
-RE758081,V762AP,source_condoms_clinic_ngo,character,0,No
-RE758081,V762AP,source_condoms_clinic_ngo,character,1,Yes
-RE758081,V762AQ,source_condoms_health_worker_ngo,character,0,No
-RE758081,V762AQ,source_condoms_health_worker_ngo,character,1,Yes
-RE758081,V762AS,source_condoms_other_shop,character,0,No
-RE758081,V762AS,source_condoms_other_shop,character,1,Yes
-RE758081,V762AT,source_condoms_other_church,character,0,No
-RE758081,V762AT,source_condoms_other_church,character,1,Yes
-RE758081,V762AU,source_condoms_other_friends_relatives,character,0,No
-RE758081,V762AU,source_condoms_other_friends_relatives,character,1,Yes
-RE758081,V762AV,source_condoms_other_hospital_other_ffaa_pnp,character,0,No
-RE758081,V762AV,source_condoms_other_hospital_other_ffaa_pnp,character,1,Yes
-RE758081,V762AW,source_condoms_other_hospital_other_municipality,character,0,No
-RE758081,V762AW,source_condoms_other_hospital_other_municipality,character,1,Yes
-RE758081,V762AX,source_condoms_other,character,0,No
-RE758081,V762AX,source_condoms_other,character,1,Yes
-RE758081,V762AZ,source_condoms_dont_know,character,0,No
-RE758081,V762AZ,source_condoms_dont_know,character,1,Yes
-RE758081,V763A,diagnosted_std_last_12_months,character,0,No
-RE758081,V763A,diagnosted_std_last_12_months,character,1,Yes
-RE758081,V763A,diagnosted_std_last_12_months,character,8,Don't know
-RE758081,V763B,genital_sores_ulcers_last_12_months,character,0,No
-RE758081,V763B,genital_sores_ulcers_last_12_months,character,1,Yes
-RE758081,V763B,genital_sores_ulcers_last_12_months,character,8,Don't know
-RE758081,V763C,foul_genital_discharge_last_12_months,character,0,No
-RE758081,V763C,foul_genital_discharge_last_12_months,character,1,Yes
-RE758081,V763C,foul_genital_discharge_last_12_months,character,8,Don't know
-RE758081,V767A,relationship_last_sex_partner,character,1,Spouse
-RE758081,V767A,relationship_last_sex_partner,character,2,Boyfriend not living with respondent
-RE758081,V767A,relationship_last_sex_partner,character,3,Other friend
-RE758081,V767A,relationship_last_sex_partner,character,4,Casual acquaintance
-RE758081,V767A,relationship_last_sex_partner,character,5,Relative
-RE758081,V767A,relationship_last_sex_partner,character,6,Commercial sex worker
-RE758081,V767A,relationship_last_sex_partner,character,8,Other boyfriend
-RE758081,V767A,relationship_last_sex_partner,character,96,Other
-RE758081,V769,could_get_a_condom,character,0,No
-RE758081,V769,could_get_a_condom,character,1,Yes
-RE758081,V769,could_get_a_condom,character,8,Don't know
-RE758081,V770,seek_advice_last_sti,character,0,No
-RE758081,V770,seek_advice_last_sti,character,1,Yes
-RE758081,V770A,seek_advice_last_stit_hospital_minsa,character,0,No
-RE758081,V770A,seek_advice_last_stit_hospital_minsa,character,1,Yes
-RE758081,V770B,seek_advice_last_sti_health_center_minsa,character,0,No
-RE758081,V770B,seek_advice_last_sti_health_center_minsa,character,1,Yes
-RE758081,V770G,seek_advice_last_sti_health_post_minsa,character,0,No
-RE758081,V770G,seek_advice_last_sti_health_post_minsa,character,1,Yes
-RE758081,V770H,seek_advice_last_sti_hospital_essalud,character,0,No
-RE758081,V770H,seek_advice_last_sti_hospital_essalud,character,1,Yes
-RE758081,V770I,seek_advice_last_sti_health_center_post_essalud,character,0,No
-RE758081,V770I,seek_advice_last_sti_health_center_post_essalud,character,1,Yes
-RE758081,V770J,seek_advice_last_sti_other_public,character,0,No
-RE758081,V770J,seek_advice_last_sti_other_public,character,1,Yes
-RE758081,V770K,seek_advice_last_sti_private_clinic,character,0,No
-RE758081,V770K,seek_advice_last_sti_private_clinic,character,1,Yes
-RE758081,V770M,seek_advice_last_sti_pharmacy,character,0,No
-RE758081,V770M,seek_advice_last_sti_pharmacy,character,1,Yes
-RE758081,V770P,seek_advice_last_sti_private_doctor,character,0,No
-RE758081,V770P,seek_advice_last_sti_private_doctor,character,1,Yes
-RE758081,V770Q,seek_advice_last_sti_clinic_ngo,character,0,No
-RE758081,V770Q,seek_advice_last_sti_clinic_ngo,character,1,Yes
-RE758081,V770S,seek_advice_last_sti_other_private,character,0,No
-RE758081,V770S,seek_advice_last_sti_other_private,character,1,Yes
-RE758081,V770U,seek_advice_last_sti_tradition_practitioner,character,0,No
-RE758081,V770U,seek_advice_last_sti_tradition_practitioner,character,1,Yes
-RE758081,V770V,seek_advice_last_sti_friend_relative,character,0,No
-RE758081,V770V,seek_advice_last_sti_friend_relative,character,1,Yes
-RE758081,V770W,seek_advice_last_sti_auto_medication,character,0,No
-RE758081,V770W,seek_advice_last_sti_auto_medication,character,1,Yes
-RE758081,V770X,seek_advice_last_sti_other,character,0,No
-RE758081,V770X,seek_advice_last_sti_other,character,1,Yes
-RE758081,V781,ever_been_tested_aids,character,0,No
-RE758081,V781,ever_been_tested_aids,character,1,Yes
-RE758081,V783,place_get_tested_aids,character,1,Yes
-RE758081,V784A,place_get_tested_aids_hospital_minsa,character,0,No
-RE758081,V784A,place_get_tested_aids_hospital_minsa,character,1,Yes
-RE758081,V784B,place_get_tested_aids_hiv_health_center_minsa,character,0,No
-RE758081,V784B,place_get_tested_aids_hiv_health_center_minsa,character,1,Yes
-RE758081,V784G,place_get_tested_aids_health_post_minsa,character,0,No
-RE758081,V784G,place_get_tested_aids_health_post_minsa,character,1,Yes
-RE758081,V784H,place_get_tested_aids_hospital_essalud,character,0,No
-RE758081,V784H,place_get_tested_aids_hospital_essalud,character,1,Yes
-RE758081,V784I,place_get_tested_aids_health_center_post_essalud,character,0,No
-RE758081,V784I,place_get_tested_aids_health_center_post_essalud,character,1,Yes
-RE758081,V784J,place_get_tested_aids_other_public,character,0,No
-RE758081,V784J,place_get_tested_aids_other_public,character,1,Yes
-RE758081,V784K,place_get_tested_aids_private_clinic,character,0,No
-RE758081,V784K,place_get_tested_aids_private_clinic,character,1,Yes
-RE758081,V784P,place_get_tested_aids_pivate_doctor,character,0,No
-RE758081,V784P,place_get_tested_aids_pivate_doctor,character,1,Yes
-RE758081,V784Q,place_get_tested_aids_clinic_ngo,character,0,No
-RE758081,V784Q,place_get_tested_aids_clinic_ngo,character,1,Yes
-RE758081,V784S,place_get_tested_aids_other_private,character,0,No
-RE758081,V784S,place_get_tested_aids_other_private,character,1,Yes
-RE758081,V784X,place_get_tested_aids_other,character,0,No
-RE758081,V784X,place_get_tested_aids_other,character,1,Yes
-RE758081,V785,heard_other_std,character,0,No
-RE758081,V785,heard_other_std,character,1,Yes
-RE758081,V820,use_condom_first_sexual_intercourse,character,0,No
-RE758081,V820,use_condom_first_sexual_intercourse,character,1,Yes
-RE758081,V820,use_condom_first_sexual_intercourse,character,8,Don't know
-RE758081,V828,get_results_last_aids_test,character,0,No
-RE758081,V828,get_results_last_aids_test,character,1,Yes
-RE758081,V830,age_first_sexual_partner,numeric,98,Don't know
-RE758081,V831,first_sexual_partner_younger_same_age_older,character,1,Younger
-RE758081,V831,first_sexual_partner_younger_same_age_older,character,2,About the same age
-RE758081,V831,first_sexual_partner_younger_same_age_older,character,3,Less than 10 years older
-RE758081,V831,first_sexual_partner_younger_same_age_older,character,4,10 or more years older
-RE758081,V831,first_sexual_partner_younger_same_age_older,character,5,"Older, don't know difference"
-RE758081,V831,first_sexual_partner_younger_same_age_older,character,8,Don't know
-RE758081,V835A,alcohol_comsumption_last_time_sex,character,0,No
-RE758081,V835A,alcohol_comsumption_last_time_sex,character,1,Respondet drunk only
-RE758081,V835A,alcohol_comsumption_last_time_sex,character,2,Partner drunk only
-RE758081,V835A,alcohol_comsumption_last_time_sex,character,3,Both drunk
-RE758081,V835A,alcohol_comsumption_last_time_sex,character,4,Neither drunk but consumed alcohol
-RE758081,V836,total_lifetime_sex_partners_last_12_months,character,98,Don't know
-REC0111,V024,region,character,1,Amazonas
-REC0111,V024,region,character,2,Ancash
-REC0111,V024,region,character,3,Apurimac
-REC0111,V024,region,character,4,Arequipa
-REC0111,V024,region,character,5,Ayacucho
-REC0111,V024,region,character,6,Cajamarca
-REC0111,V024,region,character,7,Callao
-REC0111,V024,region,character,8,Cusco
-REC0111,V024,region,character,9,Huancavelica
-REC0111,V024,region,character,10,Huanuco
-REC0111,V024,region,character,11,Ica
-REC0111,V024,region,character,12,Junin
-REC0111,V024,region,character,13,La Libertad
-REC0111,V024,region,character,14,Lambayeque
-REC0111,V024,region,character,15,Lima
-REC0111,V024,region,character,16,Loreto
-REC0111,V024,region,character,17,Madre de Dios
-REC0111,V024,region,character,18,Moquegua
-REC0111,V024,region,character,19,Pasco
-REC0111,V024,region,character,20,Piura
-REC0111,V024,region,character,21,Puno
-REC0111,V024,region,character,22,San Martin
-REC0111,V024,region,character,23,Tacna
-REC0111,V024,region,character,24,Tumbes
-REC0111,V024,region,character,25,Ucayali
-REC0111,V025,type_place_residence,character,1,Urban
-REC0111,V025,type_place_residence,character,2,Rural
-REC0111,V103,childhood_place_residence,character,0,"Capital, large city"
-REC0111,V103,childhood_place_residence,character,1,City
-REC0111,V103,childhood_place_residence,character,2,Town
-REC0111,V103,childhood_place_residence,character,3,Countryside
-REC0111,V103,childhood_place_residence,character,4,Abroad
-REC0111,V103,childhood_place_residence,character,8,Missing
-REC0111,V104,years_lived_place_residence,numeric,95,Always
-REC0111,V104,years_lived_place_residence,numeric,96,Visitor
-REC0111,V105,type_place_previous_residence,character,0,"Capital, large city"
-REC0111,V105,type_place_previous_residence,character,1,City
-REC0111,V105,type_place_previous_residence,character,2,Town
-REC0111,V105,type_place_previous_residence,character,3,Countryside
-REC0111,V105,type_place_previous_residence,character,4,Abroad
-REC0111,V105,type_place_previous_residence,character,8,Missing
-REC0111,V106,highest_edu_level,character,0,No education
-REC0111,V106,highest_edu_level,character,1,Primary
-REC0111,V106,highest_edu_level,character,2,Secondary
-REC0111,V106,highest_edu_level,character,3,Higher
-REC0111,V107,highest_edu_grade,character,9,Missing
-REC0111,V113,primary_source_drinking_water,character,11,Piped into dwelling
-REC0111,V113,primary_source_drinking_water,character,12,Piped outside dwelling but within buikding
-REC0111,V113,primary_source_drinking_water,character,13,Public tap/standpipe
-REC0111,V113,primary_source_drinking_water,character,21,Well inside dwelling
-REC0111,V113,primary_source_drinking_water,character,22,Public well
-REC0111,V113,primary_source_drinking_water,character,41,Spring
-REC0111,V113,primary_source_drinking_water,character,43,River / Dam / Lake / Ponds / Stream / Canal / Irrigation channel
-REC0111,V113,primary_source_drinking_water,character,51,Rainwater
-REC0111,V113,primary_source_drinking_water,character,61,Tanker truck
-REC0111,V113,primary_source_drinking_water,character,71,Bottled water
-REC0111,V113,primary_source_drinking_water,character,96,Other
-REC0111,V113,primary_source_drinking_water,character,97,Not dejure resident
-REC0111,V115,time_get_primary_source_drinking_water,numeric,996,On premises
-REC0111,V115,time_get_primary_source_drinking_water,numeric,997,Not dejure resident
-REC0111,V115,time_get_primary_source_drinking_water,numeric,998,Missing
-REC0111,V116,type_toilet_facility,character,11,Inside dwelling
-REC0111,V116,type_toilet_facility,character,12,Outside dwelling
-REC0111,V116,type_toilet_facility,character,21,Ventilated latrine
-REC0111,V116,type_toilet_facility,character,22,Septic well
-REC0111,V116,type_toilet_facility,character,23,Latrine
-REC0111,V116,type_toilet_facility,character,24,Latrine over river/lake
-REC0111,V116,type_toilet_facility,character,31,"River, canal"
-REC0111,V116,type_toilet_facility,character,32,No service
-REC0111,V116,type_toilet_facility,character,96,Other
-REC0111,V116,type_toilet_facility,character,97,Not dejure resident
-REC0111,V119,have_electricity,character,0,No
-REC0111,V119,have_electricity,character,1,Yes
-REC0111,V119,have_electricity,character,7,Not dejure resident
-REC0111,V120,have_radio,character,0,No
-REC0111,V120,have_radio,character,1,Yes
-REC0111,V120,have_radio,character,7,Not dejure resident
-REC0111,V121,have_tv,character,0,No
-REC0111,V121,have_tv,character,1,Yes
-REC0111,V121,have_tv,character,7,Not dejure resident
-REC0111,V122,have_refrigirator,character,0,No
-REC0111,V122,have_refrigirator,character,1,Yes
-REC0111,V122,have_refrigirator,character,7,Not dejure resident
-REC0111,V123,have_bicycle,character,0,No
-REC0111,V123,have_bicycle,character,1,Yes
-REC0111,V123,have_bicycle,character,7,Not dejure resident
-REC0111,V124,have_motorcycle_scooter,character,0,No
-REC0111,V124,have_motorcycle_scooter,character,1,Yes
-REC0111,V124,have_motorcycle_scooter,character,7,Not dejure resident
-REC0111,V125,have_car_truck,character,0,No
-REC0111,V125,have_car_truck,character,1,Yes
-REC0111,V125,have_car_truck,character,7,Not dejure resident
-REC0111,V127,main_floor_material,character,11,Earth/sand
-REC0111,V127,main_floor_material,character,21,Wood
-REC0111,V127,main_floor_material,character,31,Parket
-REC0111,V127,main_floor_material,character,32,Asphalt tiles/vynil
-REC0111,V127,main_floor_material,character,33,"Granite, ceramic tiles"
-REC0111,V127,main_floor_material,character,34,Cement/brick
-REC0111,V127,main_floor_material,character,96,Other
-REC0111,V127,main_floor_material,character,97,Not dejure resident
-REC0111,V128,main_wall_material,character,11,Wood
-REC0111,V128,main_wall_material,character,12,Estera
-REC0111,V128,main_wall_material,character,13,Rustic mats
-REC0111,V128,main_wall_material,character,21,Mud or mud bricks
-REC0111,V128,main_wall_material,character,22,Bambu with mud
-REC0111,V128,main_wall_material,character,23,Stone with mud
-REC0111,V128,main_wall_material,character,24,Carton
-REC0111,V128,main_wall_material,character,31,Brick/cement blocks
-REC0111,V128,main_wall_material,character,32,Stone with cal or cement
-REC0111,V128,main_wall_material,character,33,Compressed wood
-REC0111,V128,main_wall_material,character,41,No walls
-REC0111,V128,main_wall_material,character,96,Other
-REC0111,V128,main_wall_material,character,97,Not dejure resident
-REC0111,V129,main_roof_material,character,11,Straw and palm leaves
-REC0111,V129,main_roof_material,character,12,Rush mat
-REC0111,V129,main_roof_material,character,21,Bambu with mud
-REC0111,V129,main_roof_material,character,22,Carton
-REC0111,V129,main_roof_material,character,31,Concrete plaque
-REC0111,V129,main_roof_material,character,32,Wood
-REC0111,V129,main_roof_material,character,33,Tiles
-REC0111,V129,main_roof_material,character,34,Plaque from different materials
-REC0111,V129,main_roof_material,character,41,With no roof
-REC0111,V129,main_roof_material,character,96,Other
-REC0111,V129,main_roof_material,character,97,Not dejure resident
-REC0111,V131,ethnicity,character,1,Quechua
-REC0111,V131,ethnicity,character,2,Aymara
-REC0111,V131,ethnicity,character,3,Ashaninka
-REC0111,V131,ethnicity,character,4,Awajun / Aguaruna
-REC0111,V131,ethnicity,character,5,Shipibo / Konibo
-REC0111,V131,ethnicity,character,6,Shawi / Chayahuita
-REC0111,V131,ethnicity,character,7,Matsigenka / Machiguenga
-REC0111,V131,ethnicity,character,8,Achuar
-REC0111,V131,ethnicity,character,9,Other native or indigeneous language 
-REC0111,V131,ethnicity,character,10,Spanish speaker
-REC0111,V131,ethnicity,character,11,Portuguese speaker
-REC0111,V131,ethnicity,character,12,Other foreign language
-REC0111,V150,relationship_household_head,character,1,Head
-REC0111,V150,relationship_household_head,character,2,Wife / Husband
-REC0111,V150,relationship_household_head,character,3,Daugther / Son
-REC0111,V150,relationship_household_head,character,4,Daugther-in-law / Son-in-law
-REC0111,V150,relationship_household_head,character,5,Grand-daughter / Grand-son
-REC0111,V150,relationship_household_head,character,6,Mother / Father
-REC0111,V150,relationship_household_head,character,7,Mother-in-law / Father-in-law
-REC0111,V150,relationship_household_head,character,8,Sister / Brother
-REC0111,V150,relationship_household_head,character,10,Other relative
-REC0111,V150,relationship_household_head,character,11,Adopted / Foster child
-REC0111,V150,relationship_household_head,character,12,Not related
-REC0111,V150,relationship_household_head,character,15,Domestic employee
-REC0111,V151,sex_household_head,character,1,Male
-REC0111,V151,sex_household_head,character,2,Female
-REC0111,V155,literacy,character,0,Cannot read at all
-REC0111,V155,literacy,character,1,Able to read only parts of sentence
-REC0111,V155,literacy,character,2,Able to read whole sentence
-REC0111,V155,literacy,character,3,No card with required language
-REC0111,V155,literacy,character,4,Blind / Visually impaired
-REC0111,V190,wealth_index,character,1,Poorest
-REC0111,V190,wealth_index,character,2,Poor
-REC0111,V190,wealth_index,character,3,Middle
-REC0111,V190,wealth_index,character,4,Rich
-REC0111,V190,wealth_index,character,5,Richest
-REC91,S1002C,last_current_partner_take_opinion_into_account,character,0,Never
-REC91,S1002C,last_current_partner_take_opinion_into_account,character,1,Frequently
-REC91,S1002C,last_current_partner_take_opinion_into_account,character,2,Sometimes
-REC91,S1002D,last_current_partner_respect_wishes,character,0,Never
-REC91,S1002D,last_current_partner_respect_wishes,character,1,Frequently
-REC91,S1002D,last_current_partner_respect_wishes,character,2,Sometimes
-REC91,S1002E,last_current_partner_respect_rights,character,0,Never
-REC91,S1002E,last_current_partner_respect_rights,character,1,Frequently
-REC91,S1002E,last_current_partner_respect_rights,character,2,Sometimes
-REC91,S108N,edu_level,character,0,None / Preschool
-REC91,S108N,edu_level,character,1,Primary
-REC91,S108N,edu_level,character,2,Secondary
-REC91,S108N,edu_level,character,3,Non-university higher 
-REC91,S108N,edu_level,character,4,University higher
-REC91,S108N,edu_level,character,5,Postgraduate
-REC91,S111,currently_attending_school,character,0,No
-REC91,S111,currently_attending_school,character,1,Yes
-REC91,S119,mother_tongue,character,1,Quechua
-REC91,S119,mother_tongue,character,2,Aymara
-REC91,S119,mother_tongue,character,3,Ashaninka
-REC91,S119,mother_tongue,character,4,Awajun / Aguaruna
-REC91,S119,mother_tongue,character,5,Shipibo / Konibo
-REC91,S119,mother_tongue,character,6,Shawi / Chayahuita
-REC91,S119,mother_tongue,character,7,Matsigenka / Machiguenga
-REC91,S119,mother_tongue,character,8,Achuar
-REC91,S119,mother_tongue,character,9,Other native or indigeneous language 
-REC91,S119,mother_tongue,character,10,Spanish speaker
-REC91,S119,mother_tongue,character,11,Portuguese speaker
-REC91,S119,mother_tongue,character,12,Other foreign language
-REC91,S512C,relationship_first_sexual_partner,character,1,Husband / Partner
-REC91,S512C,relationship_first_sexual_partner,character,2,Fiance
-REC91,S512C,relationship_first_sexual_partner,character,3,Friend
-REC91,S512C,relationship_first_sexual_partner,character,4,Casual partner
-REC91,S512C,relationship_first_sexual_partner,character,5,Relative
-REC91,S512C,relationship_first_sexual_partner,character,6,Sexual worker
-REC91,S512C,relationship_first_sexual_partner,character,7,Boyfriend
-REC91,S512C,relationship_first_sexual_partner,character,96,Other
-REC91,S621,partner_approve_disapprove_family_planning,character,1,Approve
-REC91,S621,partner_approve_disapprove_family_planning,character,2,Disapprove
-REC91,S621,partner_approve_disapprove_family_planning,character,8,Don't know
-REC91,S704N,partner_edu_level,character,0,None / Preschool
-REC91,S704N,partner_edu_level,character,1,Primary
-REC91,S704N,partner_edu_level,character,2,Secondary
-REC91,S704N,partner_edu_level,character,3,Non-university higher 
-REC91,S704N,partner_edu_level,character,4,University higher
-REC91,S704N,partner_edu_level,character,5,Postgraduate
-REC91,S704N,partner_edu_level,character,8,Don't know
-REC91,S802,can_something_be_done_prevent_aids,character,0,No
-REC91,S802,can_something_be_done_prevent_aids,character,1,Yes
-REC91,S802,can_something_be_done_prevent_aids,character,8,Don't know
-REC91,S802D,people_can_get_aids_embraces_caress,character,0,No
-REC91,S802D,people_can_get_aids_embraces_caress,character,1,Yes
-REC91,S802D,people_can_get_aids_embraces_caress,character,8,Don't know
-REC91,S802E,people_can_get_aids_share_utensils,character,0,No
-REC91,S802E,people_can_get_aids_share_utensils,character,1,Yes
-REC91,S802E,people_can_get_aids_share_utensils,character,8,Don't know
-REC91,S802F,people_can_get_aids_bath_shower_pool,character,0,No
-REC91,S802F,people_can_get_aids_bath_shower_pool,character,1,Yes
-REC91,S802F,people_can_get_aids_bath_shower_pool,character,8,Don't know
-REC91,S802I,people_can_get_divine_punishment,character,0,No
-REC91,S802I,people_can_get_divine_punishment,character,1,Yes
-REC91,S802I,people_can_get_divine_punishment,character,8,Don't know
-REC91,S803AF,place_get_tested_aids_hospital_other_ffaa_pnp,character,0,No
-REC91,S803AF,place_get_tested_aids_hospital_other_ffaa_pnp,character,1,Yes
-REC91,S803AM,place_get_tested_aids_hospital_other_church,character,0,No
-REC91,S803AM,place_get_tested_aids_hospital_other_church,character,1,Yes
-REC91,S804A,get_tested_hiv_receive_counseling_before,character,0,No
-REC91,S804A,get_tested_hiv_receive_counseling_before,character,1,Yes
-REC91,S804C,when_get_results_recivied_counseling,character,0,No
-REC91,S804C,when_get_results_recivied_counseling,character,1,Yes
-REC91,S815AA,know_sti_syphilis,character,0,No
-REC91,S815AA,know_sti_syphilis,character,1,Yes
-REC91,S815AB,know_sti_gonorrhea,character,0,No
-REC91,S815AB,know_sti_gonorrhea,character,1,Yes
-REC91,S815AC,know_sti_genital_warts_condyloma,character,0,No
-REC91,S815AC,know_sti_genital_warts_condyloma,character,1,Yes
-REC91,S815AD,know_sti_chancre,character,0,No
-REC91,S815AD,know_sti_chancre,character,1,Yes
-REC91,S815AE,know_sti_herpes,character,0,No
-REC91,S815AE,know_sti_herpes,character,1,Yes
-REC91,S815AX,know_sti_other,character,0,No
-REC91,S815AX,know_sti_other,character,1,Yes
-REC91,S815AZ,know_sti_dont_know,character,0,No
-REC91,S815AZ,know_sti_dont_know,character,1,Yes
-REC91,S816A,std_male_sx_abdominal_pain,character,0,No
-REC91,S816A,std_male_sx_abdominal_pain,character,1,Yes
-REC91,S816AA,std_female_sx_abdominal_pain,character,0,No
-REC91,S816AA,std_female_sx_abdominal_pain,character,1,Yes
-REC91,S816AB,std_female_sx_genital_discharge,character,0,No
-REC91,S816AB,std_female_sx_genital_discharge,character,1,Yes
-REC91,S816AC,std_female_sx_foul_discharge,character,0,No
-REC91,S816AC,std_female_sx_foul_discharge,character,1,Yes
-REC91,S816AD,std_female_sx_discomfort_urinating,character,0,No
-REC91,S816AD,std_female_sx_discomfort_urinating,character,1,Yes
-REC91,S816AE,std_female_sx_genital_rash,character,0,No
-REC91,S816AE,std_female_sx_genital_rash,character,1,Yes
-REC91,S816AF,std_female_sx_genital_swelling,character,0,No
-REC91,S816AF,std_female_sx_genital_swelling,character,1,Yes
-REC91,S816AG,std_female_sx_genital_ulcers,character,0,No
-REC91,S816AG,std_female_sx_genital_ulcers,character,1,Yes
-REC91,S816AH,std_female_sx_genital_warts,character,0,No
-REC91,S816AH,std_female_sx_genital_warts,character,1,Yes
-REC91,S816AI,std_female_sx_blood_urine,character,0,No
-REC91,S816AI,std_female_sx_blood_urine,character,1,Yes
-REC91,S816AJ,std_female_sx_weight_loss,character,0,No
-REC91,S816AJ,std_female_sx_weight_loss,character,1,Yes
-REC91,S816AK,std_female_sx_infecund,character,0,No
-REC91,S816AK,std_female_sx_infecund,character,1,Yes
-REC91,S816AL,std_female_sx_no_symptoms,character,0,No
-REC91,S816AL,std_female_sx_no_symptoms,character,1,Yes
-REC91,S816AW,std_female_sx_other,character,0,No
-REC91,S816AW,std_female_sx_other,character,1,Yes
-REC91,S816AZ,std_female_sx_dont_know,character,0,No
-REC91,S816AZ,std_female_sx_dont_know,character,1,Yes
-REC91,S816B,std_male_sx_genital_discharge,character,0,No
-REC91,S816B,std_male_sx_genital_discharge,character,1,Yes
-REC91,S816C,std_male_sx_foul_genital_discharge,character,0,No
-REC91,S816C,std_male_sx_foul_genital_discharge,character,1,Yes
-REC91,S816D,std_male_sx_discomfort_urinating,character,0,No
-REC91,S816D,std_male_sx_discomfort_urinating,character,1,Yes
-REC91,S816E,std_male_sx_genital_rash,character,0,No
-REC91,S816E,std_male_sx_genital_rash,character,1,Yes
-REC91,S816F,std_male_sx_genital_swelling,character,0,No
-REC91,S816F,std_male_sx_genital_swelling,character,1,Yes
-REC91,S816G,std_male_sx_genital_ulcers,character,0,No
-REC91,S816G,std_male_sx_genital_ulcers,character,1,Yes
-REC91,S816H,std_male_sx_genital_warts,character,0,No
-REC91,S816H,std_male_sx_genital_warts,character,1,Yes
-REC91,S816I,std_male_sx_blood_urine,character,0,No
-REC91,S816I,std_male_sx_blood_urine,character,1,Yes
-REC91,S816J,std_male_sx_weight_loss,character,0,No
-REC91,S816J,std_male_sx_weight_loss,character,1,Yes
-REC91,S816K,std_male_sx_impotence,character,0,No
-REC91,S816K,std_male_sx_impotence,character,1,Yes
-REC91,S816L,std_male_sx_no_symptoms,character,0,No
-REC91,S816L,std_male_sx_no_symptoms,character,1,Yes
-REC91,S816M,std_male_sx_secretion_pus_pennis,character,0,No
-REC91,S816M,std_male_sx_secretion_pus_pennis,character,1,Yes
-REC91,S816W,std_male_sx_other,character,0,No
-REC91,S816W,std_male_sx_other,character,1,Yes
-REC91,S816Z,std_male_sx_dont_know,character,0,No
-REC91,S816Z,std_male_sx_dont_know,character,1,Yes
-REC91,S817,diagnosed_std_last_12_months,character,0,No
-REC91,S817,diagnosed_std_last_12_months,character,1,Yes
-REC91,S817,diagnosed_std_last_12_months,character,8,Don't know
-REC91,SREGION,natural_region,character,1,Lima Metropolitan Area
-REC91,SREGION,natural_region,character,2,Rest of Coast
-REC91,SREGION,natural_region,character,3,Highland
-REC91,SREGION,natural_region,character,4,Jungle
+survey,variable,variable_name,value,value_description
+RE516171,V704,partner_occupation,0,Other / Does not work / Unspecified
+RE516171,V704,partner_occupation,1,Armed Forces
+RE516171,V704,partner_occupation,2,Police Forces
+RE516171,V704,partner_occupation,5,Pensioner / Retired / Rentier / Student
+RE516171,V704,partner_occupation,11,Member of the Executive Branch/Legislative Branch
+RE516171,V704,partner_occupation,12,Company Director (with 3 or more Directors)
+RE516171,V704,partner_occupation,13,Director of Education
+RE516171,V704,partner_occupation,14,Small Business Manager (Workshops)
+RE516171,V704,partner_occupation,21,"Physical, Chemical or Mathematical Sciences Professional/Civil Engineer/Architect"
+RE516171,V704,partner_occupation,22,Engineer (excluding Civil Engineer)
+RE516171,V704,partner_occupation,23,"Biological, Medical or Health Sciences Professional"
+RE516171,V704,partner_occupation,24,Teacher and/or Pedagogue / Education Assistant
+RE516171,V704,partner_occupation,25,Lawyer / Economic or Management Sciences Professional
+RE516171,V704,partner_occupation,26,Librarian / Social Scientist / Journalist / Psychologist
+RE516171,V704,partner_occupation,27,Artist / Sculptor / Musician
+RE516171,V704,partner_occupation,28,Tourism and Hospitality / Public Relations / Diplomat / Priest
+RE516171,V704,partner_occupation,31,"Physical, Chemical or Mathematical Sciences / Engineering Technician"
+RE516171,V704,partner_occupation,32,Specialized Equipment Operator / Photographer
+RE516171,V704,partner_occupation,33,"Maritime Navigation and Aeronautics Technician / Safety, Health and Quality Control Inspector"
+RE516171,V704,partner_occupation,34,Biological Sciences Technician
+RE516171,V704,partner_occupation,35,Medical or Health Sciences Technician/Technical Nursing
+RE516171,V704,partner_occupation,36,"Head of Sales / Administration, Accounting, Economics or Financial and Commercial Operations Technician"
+RE516171,V704,partner_occupation,37,Administrative Services Agent (AFP Pension Advisor)
+RE516171,V704,partner_occupation,38,Administrative Assistant
+RE516171,V704,partner_occupation,39,Entertainment Artist or Worker / Athlete / Religious Cult Assistant
+RE516171,V704,partner_occupation,41,Head of Administrative Units / Clerk / Secretary / Typewriter / Computer Typewriter
+RE516171,V704,partner_occupation,42,Administrative Staff
+RE516171,V704,partner_occupation,43,Head of Transportation Services / Microbus Controller
+RE516171,V704,partner_occupation,44,Head of Postal Services / Library or Printing Worker / Postmen / Messenger
+RE516171,V704,partner_occupation,45,Cashier / Receptionist / Telephone Operator / Collector (excluding Microbus Collector)
+RE516171,V704,partner_occupation,46,Office Clerk in Field Operation or other Clerk Job / Pollster / Recorder / Field Supervisor
+RE516171,V704,partner_occupation,51,Passenger Direct Service Staff / Tourist Guide / Flight Attendant
+RE516171,V704,partner_occupation,52,Chief / Bursar / Butler / Host / Waiter
+RE516171,V704,partner_occupation,53,Personal Care Worker / Nursing Assistant / Dental Office Assistant
+RE516171,V704,partner_occupation,54,Hairdresser / Beaty Treatment Specialist
+RE516171,V704,partner_occupation,55,Miscellaneous Service Workers / Model / Funeral Arrangements / Cartomancy
+RE516171,V704,partner_occupation,56,Protection and Security Services Staff / Firefighter / Municipal Police / Serenazgo / Private Police
+RE516171,V704,partner_occupation,57,Wholesale or Retail Merchant / Kiosk Vendor / Market Stall Vendor
+RE516171,V704,partner_occupation,58,Merchant or Seller (Non-ambulatory) / Commissioned Seller / Agent / Not classified under other heading
+RE516171,V704,partner_occupation,61,Farmer / Qualified Worker of Extensive Crops / Agricultural Laborer / Forestry Laborer
+RE516171,V704,partner_occupation,62,Animal Breeder / Qualified Livestock Worker of Animal Husbandry
+RE516171,V704,partner_occupation,63,"Fisherman / Hunter / Trapper / Fishing, Hunting or Trapping Worker"
+RE516171,V704,partner_occupation,71,Miner / Stonecutter / Geotechnical Surveyor
+RE516171,V704,partner_occupation,72,Wood Processing / Paper Manufacturing Worker
+RE516171,V704,partner_occupation,73,Chemical Treatment Worker
+RE516171,V704,partner_occupation,74,Spinner / Weaver / Dyer
+RE516171,V704,partner_occupation,75,"Leather Preparation, Tanning and Treatment Worker"
+RE516171,V704,partner_occupation,76,Food and Beverage Processing Worker / Butcher / Baker / Pastry Cook
+RE516171,V704,partner_occupation,77,Shoemaker / Tailor / Dessmaker / Furrier / Cabinetmaker / Upholster / Hatter
+RE516171,V704,partner_occupation,78,Laborer / Mechanic / Metal Worker / Vehicle Mechanic
+RE516171,V704,partner_occupation,79,"Adjuster, Assembler or Installer of Precision Machines or Instruments / Watchmaker / Jeweler / Silversmith"
+RE516171,V704,partner_occupation,81,Rubber and Plastic Product Manufacturing Worker / Musical Instrumets Maker / Painter / Machinery Driver
+RE516171,V704,partner_occupation,82,Paper and Cardboard Product Manufacturer
+RE516171,V704,partner_occupation,83,Graphical Arts Worker / Photographer (excluding Traveling Photographer)
+RE516171,V704,partner_occupation,84,Not Classified Worker
+RE516171,V704,partner_occupation,85,Building / Theater / Metal Building / Car Painter (Brush or Roller)
+RE516171,V704,partner_occupation,86,Construction Worker / Bricklayer / Carpenter / Cabinetmaker
+RE516171,V704,partner_occupation,87,Agricultural / Fixed Machine / Handling of Goods and Materials Operator
+RE516171,V704,partner_occupation,88,Transport Driver / Driver / Taxi Driver
+RE516171,V704,partner_occupation,91,Peddler
+RE516171,V704,partner_occupation,93,Transport Collector / Microbus Collector
+RE516171,V704,partner_occupation,94,Household Employee / Cleaner / Laundryman / Ironer / Shoe Shinner / Traveling Photographer / Gardener
+RE516171,V704,partner_occupation,95,Messenger / Deliveryman / Porter / Meter Reader / Guardian
+RE516171,V704,partner_occupation,96,Trash Collector
+RE516171,V704,partner_occupation,98,Mining / Electricity / Gas and Water Supply / Construction / Manufacturing / Transportation Worker
+RE516171,V704,partner_occupation,99,Missing
+RE516171,V705,standardized_partner_occupation,0,Does not work
+RE516171,V705,standardized_partner_occupation,1,Professional / Technician / Manager
+RE516171,V705,standardized_partner_occupation,2,Ecclesiastical
+RE516171,V705,standardized_partner_occupation,3,Sales
+RE516171,V705,standardized_partner_occupation,4,Farmer / Self-employed
+RE516171,V705,standardized_partner_occupation,6,Household Employee
+RE516171,V705,standardized_partner_occupation,7,Services
+RE516171,V705,standardized_partner_occupation,8,With manual skills
+RE516171,V705,standardized_partner_occupation,9,Without manual skills
+RE516171,V714,respondent_currently_working,0,No
+RE516171,V714,respondent_currently_working,1,Yes
+RE516171,V714A,repondent_job_absent,0,No
+RE516171,V714A,repondent_job_absent,1,Yes
+RE516171,V715,single_years_edu_partner,98,Don't know
+RE516171,V716,respondent_occupation,0,Other / Does not work / Unspecified
+RE516171,V716,respondent_occupation,1,Armed Forces
+RE516171,V716,respondent_occupation,2,Police Forces
+RE516171,V716,respondent_occupation,5,Pensioner / Retired / Rentier / Student
+RE516171,V716,respondent_occupation,11,Member of the Executive Branch/Legislative Branch
+RE516171,V716,respondent_occupation,12,Company Director (with 3 or more Directors)
+RE516171,V716,respondent_occupation,13,Director of Education
+RE516171,V716,respondent_occupation,14,Small Business Manager (Workshops)
+RE516171,V716,respondent_occupation,21,"Physical, Chemical or Mathematical Sciences Professional/Civil Engineer/Architect"
+RE516171,V716,respondent_occupation,22,Engineer (excluding Civil Engineer)
+RE516171,V716,respondent_occupation,23,"Biological, Medical or Health Sciences Professional"
+RE516171,V716,respondent_occupation,24,Teacher and/or Pedagogue / Education Assistant
+RE516171,V716,respondent_occupation,25,Lawyer / Economic or Management Sciences Professional
+RE516171,V716,respondent_occupation,26,Librarian / Social Scientist / Journalist / Psychologist
+RE516171,V716,respondent_occupation,27,Artist / Sculptor / Musician
+RE516171,V716,respondent_occupation,28,Tourism and Hospitality / Public Relations / Diplomat / Priest
+RE516171,V716,respondent_occupation,31,"Physical, Chemical or Mathematical Sciences / Engineering Technician"
+RE516171,V716,respondent_occupation,32,Specialized Equipment Operator / Photographer
+RE516171,V716,respondent_occupation,33,"Maritime Navigation and Aeronautics Technician / Safety, Health and Quality Control Inspector"
+RE516171,V716,respondent_occupation,34,Biological Sciences Technician
+RE516171,V716,respondent_occupation,35,Medical or Health Sciences Technician/Technical Nursing
+RE516171,V716,respondent_occupation,36,"Head of Sales / Administration, Accounting, Economics or Financial and Commercial Operations Technician"
+RE516171,V716,respondent_occupation,37,Administrative Services Agent (AFP Pension Advisor)
+RE516171,V716,respondent_occupation,38,Administrative Assistant
+RE516171,V716,respondent_occupation,39,Entertainment Artist or Worker / Athlete / Religious Cult Assistant
+RE516171,V716,respondent_occupation,41,Head of Administrative Units / Clerk / Secretary / Typewriter / Computer Typewriter
+RE516171,V716,respondent_occupation,42,Administrative Staff
+RE516171,V716,respondent_occupation,43,Head of Transportation Services / Microbus Controller
+RE516171,V716,respondent_occupation,44,Head of Postal Services / Library or Printing Worker / Postmen / Messenger
+RE516171,V716,respondent_occupation,45,Cashier / Receptionist / Telephone Operator / Collector (excluding Microbus Collector)
+RE516171,V716,respondent_occupation,46,Office Clerk in Field Operation or other Clerk Job / Pollster / Recorder / Field Supervisor
+RE516171,V716,respondent_occupation,51,Passenger Direct Service Staff / Tourist Guide / Flight Attendant
+RE516171,V716,respondent_occupation,52,Chief / Bursar / Butler / Host / Waiter
+RE516171,V716,respondent_occupation,53,Personal Care Worker / Nursing Assistant / Dental Office Assistant
+RE516171,V716,respondent_occupation,54,Hairdresser / Beaty Treatment Specialist
+RE516171,V716,respondent_occupation,55,Miscellaneous Service Workers / Model / Funeral Arrangements / Cartomancy
+RE516171,V716,respondent_occupation,56,Protection and Security Services Staff / Firefighter / Municipal Police / Serenazgo / Private Police
+RE516171,V716,respondent_occupation,57,Wholesale or Retail Merchant / Kiosk Vendor / Market Stall Vendor
+RE516171,V716,respondent_occupation,58,Merchant or Seller (Non-ambulatory) / Commissioned Seller / Agent / Not classified under other heading
+RE516171,V716,respondent_occupation,61,Farmer / Qualified Worker of Extensive Crops / Agricultural Laborer / Forestry Laborer
+RE516171,V716,respondent_occupation,62,Animal Breeder / Qualified Livestock Worker of Animal Husbandry
+RE516171,V716,respondent_occupation,63,"Fisherman / Hunter / Trapper / Fishing, Hunting or Trapping Worker"
+RE516171,V716,respondent_occupation,71,Miner / Stonecutter / Geotechnical Surveyor
+RE516171,V716,respondent_occupation,72,Wood Processing / Paper Manufacturing Worker
+RE516171,V716,respondent_occupation,73,Chemical Treatment Worker
+RE516171,V716,respondent_occupation,74,Spinner / Weaver / Dyer
+RE516171,V716,respondent_occupation,75,"Leather Preparation, Tanning and Treatment Worker"
+RE516171,V716,respondent_occupation,76,Food and Beverage Processing Worker / Butcher / Baker / Pastry Cook
+RE516171,V716,respondent_occupation,77,Shoemaker / Tailor / Dessmaker / Furrier / Cabinetmaker / Upholster / Hatter
+RE516171,V716,respondent_occupation,78,Laborer / Mechanic / Metal Worker / Vehicle Mechanic
+RE516171,V716,respondent_occupation,79,"Adjuster, Assembler or Installer of Precision Machines or Instruments / Watchmaker / Jeweler / Silversmith"
+RE516171,V716,respondent_occupation,81,Rubber and Plastic Product Manufacturing Worker / Musical Instrumets Maker / Painter / Machinery Driver
+RE516171,V716,respondent_occupation,82,Paper and Cardboard Product Manufacturer
+RE516171,V716,respondent_occupation,83,Graphical Arts Worker / Photographer (excluding Traveling Photographer)
+RE516171,V716,respondent_occupation,84,Not Classified Worker
+RE516171,V716,respondent_occupation,85,Building / Theater / Metal Building / Car Painter (Brush or Roller)
+RE516171,V716,respondent_occupation,86,Construction Worker / Bricklayer / Carpenter / Cabinetmaker
+RE516171,V716,respondent_occupation,87,Agricultural / Fixed Machine / Handling of Goods and Materials Operator
+RE516171,V716,respondent_occupation,88,Transport Driver / Driver / Taxi Driver
+RE516171,V716,respondent_occupation,91,Peddler
+RE516171,V716,respondent_occupation,93,Transport Collector / Microbus Collector
+RE516171,V716,respondent_occupation,94,Household Employee / Cleaner / Laundryman / Ironer / Shoe Shinner / Traveling Photographer / Gardener
+RE516171,V716,respondent_occupation,95,Messenger / Deliveryman / Porter / Meter Reader / Guardian
+RE516171,V716,respondent_occupation,96,Trash Collector
+RE516171,V716,respondent_occupation,98,Mining / Electricity / Gas and Water Supply / Construction / Manufacturing / Transportation Worker
+RE516171,V716,respondent_occupation,99,Missing
+RE516171,V717,standardized_respondent_occupation,0,Does not work
+RE516171,V717,standardized_respondent_occupation,1,Professional / Technician / Manager
+RE516171,V717,standardized_respondent_occupation,2,Ecclesiastical
+RE516171,V717,standardized_respondent_occupation,3,Sales
+RE516171,V717,standardized_respondent_occupation,4,Farmer / Self-employed
+RE516171,V717,standardized_respondent_occupation,6,Household Employee
+RE516171,V717,standardized_respondent_occupation,7,Services
+RE516171,V717,standardized_respondent_occupation,8,With manual skills
+RE516171,V717,standardized_respondent_occupation,9,Without manual skills
+RE516171,V719,work_family_others_independent,1,For family member
+RE516171,V719,work_family_others_independent,2,For someone else
+RE516171,V719,work_family_others_independent,3,Self-employed
+RE516171,V721,work_home_away,1,At home
+RE516171,V721,work_home_away,2,Away
+RE516171,V731,work_last_12_months,0,No
+RE516171,V731,work_last_12_months,1,Worked in the last 12 months
+RE516171,V731,work_last_12_months,2,Currently working
+RE516171,V731,work_last_12_months,3,"Have a job, but on leave last 7 days"
+RE516171,V732,usually_work_all_year_seasonal_occasional,1,All year
+RE516171,V732,usually_work_all_year_seasonal_occasional,2,Seasonal
+RE516171,V732,usually_work_all_year_seasonal_occasional,3,Occasional
+RE516171,V739,who_decides_how_spend_money,1,Respondent alone
+RE516171,V739,who_decides_how_spend_money,2,Respondent and husband/partner
+RE516171,V739,who_decides_how_spend_money,3,Respondent and other person
+RE516171,V739,who_decides_how_spend_money,4,Husband/partner alone
+RE516171,V739,who_decides_how_spend_money,5,Someone else
+RE516171,V741,type_earnings_work,0,Not paid
+RE516171,V741,type_earnings_work,1,Cash only
+RE516171,V741,type_earnings_work,2,Cash and kind
+RE516171,V741,type_earnings_work,3,In kind only
+RE516171,V743A,final_say_health_care,0,Nobody
+RE516171,V743A,final_say_health_care,1,Respondent alone
+RE516171,V743A,final_say_health_care,2,Respondent and husband/partner
+RE516171,V743A,final_say_health_care,3,Respondent and other person
+RE516171,V743A,final_say_health_care,4,Husband/partner alone
+RE516171,V743A,final_say_health_care,5,Someone else
+RE516171,V743B,final_say_large_household_purchases,0,Nobody
+RE516171,V743B,final_say_large_household_purchases,1,Respondent alone
+RE516171,V743B,final_say_large_household_purchases,2,Respondent and husband/partner
+RE516171,V743B,final_say_large_household_purchases,3,Respondent and other person
+RE516171,V743B,final_say_large_household_purchases,4,Husband/partner alone
+RE516171,V743B,final_say_large_household_purchases,5,Someone else
+RE516171,V743C,final_say_household_puchases_daily_needs,0,Nobody
+RE516171,V743C,final_say_household_puchases_daily_needs,1,Respondent alone
+RE516171,V743C,final_say_household_puchases_daily_needs,2,Respondent and husband/partner
+RE516171,V743C,final_say_household_puchases_daily_needs,3,Respondent and other person
+RE516171,V743C,final_say_household_puchases_daily_needs,4,Husband/partner alone
+RE516171,V743C,final_say_household_puchases_daily_needs,5,Someone else
+RE516171,V743D,final_say_visit_family_friends_relatives,0,Nobody
+RE516171,V743D,final_say_visit_family_friends_relatives,1,Respondent alone
+RE516171,V743D,final_say_visit_family_friends_relatives,2,Respondent and husband/partner
+RE516171,V743D,final_say_visit_family_friends_relatives,3,Respondent and other person
+RE516171,V743D,final_say_visit_family_friends_relatives,4,Husband/partner alone
+RE516171,V743D,final_say_visit_family_friends_relatives,5,Someone else
+RE516171,V743E,final_say_food_cook_each_day,0,Nobody
+RE516171,V743E,final_say_food_cook_each_day,1,Respondent alone
+RE516171,V743E,final_say_food_cook_each_day,2,Respondent and husband/partner
+RE516171,V743E,final_say_food_cook_each_day,3,Respondent and other person
+RE516171,V743E,final_say_food_cook_each_day,4,Husband/partner alone
+RE516171,V743E,final_say_food_cook_each_day,5,Someone else
+RE516171,V743F,final_say_spent_money_partner,1,Respondent alone
+RE516171,V743F,final_say_spent_money_partner,2,Respondent and husband/partner
+RE516171,V743F,final_say_spent_money_partner,3,Respondent and other person
+RE516171,V743F,final_say_spent_money_partner,4,Husband/partner alone
+RE516171,V743F,final_say_spent_money_partner,5,Someone else
+RE516171,V743F,final_say_spent_money_partner,7,Husband/partner has no earnings
+RE516171,V744A,wife_beating_justified_goes_out_without_telling_him,0,No
+RE516171,V744A,wife_beating_justified_goes_out_without_telling_him,1,Yes
+RE516171,V744A,wife_beating_justified_goes_out_without_telling_him,8,Don't know
+RE516171,V744B,wife_beating_justified_neglects_children,0,No
+RE516171,V744B,wife_beating_justified_neglects_children,1,Yes
+RE516171,V744B,wife_beating_justified_neglects_children,8,Don't know
+RE516171,V744C,wife_beating_justified_argues_with_him,0,No
+RE516171,V744C,wife_beating_justified_argues_with_him,1,Yes
+RE516171,V744C,wife_beating_justified_argues_with_him,8,Don't know
+RE516171,V744D,wife_beating_justified_refuses_sex_with_him,0,No
+RE516171,V744D,wife_beating_justified_refuses_sex_with_him,1,Yes
+RE516171,V744D,wife_beating_justified_refuses_sex_with_him,8,Don't know
+RE516171,V744E,wife_beating_justified_burns_food,0,No
+RE516171,V744E,wife_beating_justified_burns_food,1,Yes
+RE516171,V744E,wife_beating_justified_burns_food,8,Don't know
+RE516171,V746,earn_more_less_equal_partner,1,More than him
+RE516171,V746,earn_more_less_equal_partner,2,Less than him
+RE516171,V746,earn_more_less_equal_partner,3,About the same
+RE516171,V746,earn_more_less_equal_partner,4,Partnet does not bring money
+RE516171,V746,earn_more_less_equal_partner,8,Don't know
+RE758081,V750,heard_hiv_infection,1,Yes
+RE758081,V751,heard_aids,1,Yes
+RE758081,V754BP,reduce_risk_aids_not_having_sex,0,No
+RE758081,V754BP,reduce_risk_aids_not_having_sex,1,Yes
+RE758081,V754BP,reduce_risk_aids_not_having_sex,8,Don't know
+RE758081,V754CP,reduce_risk_aids_using_condom,0,No
+RE758081,V754CP,reduce_risk_aids_using_condom,1,Yes
+RE758081,V754CP,reduce_risk_aids_using_condom,8,Don't know
+RE758081,V754DP,reduce_risk_aids_only_one_sex_partner,0,No
+RE758081,V754DP,reduce_risk_aids_only_one_sex_partner,1,Yes
+RE758081,V754DP,reduce_risk_aids_only_one_sex_partner,8,Don't know
+RE758081,V754JP,get_aids_mosquito_bites,0,No
+RE758081,V754JP,get_aids_mosquito_bites,1,Yes
+RE758081,V754JP,get_aids_mosquito_bites,8,Don't know
+RE758081,V756,healthy_looking_person_can_have_aids,0,No
+RE758081,V756,healthy_looking_person_can_have_aids,1,Yes
+RE758081,V756,healthy_looking_person_can_have_aids,8,Don't know
+RE758081,V761,last_intercourse_use_condom,0,No
+RE758081,V761,last_intercourse_use_condom,1,Yes
+RE758081,V762AA,source_condoms_hospital_minsa,0,No
+RE758081,V762AA,source_condoms_hospital_minsa,1,Yes
+RE758081,V762AB,source_condoms_health_center_minsa,0,No
+RE758081,V762AB,source_condoms_health_center_minsa,1,Yes
+RE758081,V762AE,source_condoms_health_worker_minsa,0,No
+RE758081,V762AE,source_condoms_health_worker_minsa,1,Yes
+RE758081,V762AF,source_condoms_other_public,0,No
+RE758081,V762AF,source_condoms_other_public,1,Yes
+RE758081,V762AG,source_condoms_health_post_minsa,0,No
+RE758081,V762AG,source_condoms_health_post_minsa,1,Yes
+RE758081,V762AH,source_condoms_hospital_essalud,0,No
+RE758081,V762AH,source_condoms_hospital_essalud,1,Yes
+RE758081,V762AI,source_condoms_health_center_post_essalud,0,No
+RE758081,V762AI,source_condoms_health_center_post_essalud,1,Yes
+RE758081,V762AJ,source_condomss_private_hospital_clinic,0,No
+RE758081,V762AJ,source_condomss_private_hospital_clinic,1,Yes
+RE758081,V762AK,source_condoms_pharmacy,0,No
+RE758081,V762AK,source_condoms_pharmacy,1,Yes
+RE758081,V762AL,source_condoms_private_doctor,0,No
+RE758081,V762AL,source_condoms_private_doctor,1,Yes
+RE758081,V762AO,source_condoms_other_private,0,No
+RE758081,V762AO,source_condoms_other_private,1,Yes
+RE758081,V762AP,source_condoms_clinic_ngo,0,No
+RE758081,V762AP,source_condoms_clinic_ngo,1,Yes
+RE758081,V762AQ,source_condoms_health_worker_ngo,0,No
+RE758081,V762AQ,source_condoms_health_worker_ngo,1,Yes
+RE758081,V762AS,source_condoms_other_shop,0,No
+RE758081,V762AS,source_condoms_other_shop,1,Yes
+RE758081,V762AT,source_condoms_other_church,0,No
+RE758081,V762AT,source_condoms_other_church,1,Yes
+RE758081,V762AU,source_condoms_other_friends_relatives,0,No
+RE758081,V762AU,source_condoms_other_friends_relatives,1,Yes
+RE758081,V762AV,source_condoms_other_hospital_other_ffaa_pnp,0,No
+RE758081,V762AV,source_condoms_other_hospital_other_ffaa_pnp,1,Yes
+RE758081,V762AW,source_condoms_other_hospital_other_municipality,0,No
+RE758081,V762AW,source_condoms_other_hospital_other_municipality,1,Yes
+RE758081,V762AX,source_condoms_other,0,No
+RE758081,V762AX,source_condoms_other,1,Yes
+RE758081,V762AZ,source_condoms_dont_know,0,No
+RE758081,V762AZ,source_condoms_dont_know,1,Yes
+RE758081,V763A,diagnosted_std_last_12_months,0,No
+RE758081,V763A,diagnosted_std_last_12_months,1,Yes
+RE758081,V763A,diagnosted_std_last_12_months,8,Don't know
+RE758081,V763B,genital_sores_ulcers_last_12_months,0,No
+RE758081,V763B,genital_sores_ulcers_last_12_months,1,Yes
+RE758081,V763B,genital_sores_ulcers_last_12_months,8,Don't know
+RE758081,V763C,foul_genital_discharge_last_12_months,0,No
+RE758081,V763C,foul_genital_discharge_last_12_months,1,Yes
+RE758081,V763C,foul_genital_discharge_last_12_months,8,Don't know
+RE758081,V767A,relationship_last_sex_partner,1,Spouse
+RE758081,V767A,relationship_last_sex_partner,2,Boyfriend not living with respondent
+RE758081,V767A,relationship_last_sex_partner,3,Other friend
+RE758081,V767A,relationship_last_sex_partner,4,Casual acquaintance
+RE758081,V767A,relationship_last_sex_partner,5,Relative
+RE758081,V767A,relationship_last_sex_partner,6,Commercial sex worker
+RE758081,V767A,relationship_last_sex_partner,8,Other boyfriend
+RE758081,V767A,relationship_last_sex_partner,96,Other
+RE758081,V769,could_get_a_condom,0,No
+RE758081,V769,could_get_a_condom,1,Yes
+RE758081,V769,could_get_a_condom,8,Don't know
+RE758081,V770,seek_advice_last_sti,0,No
+RE758081,V770,seek_advice_last_sti,1,Yes
+RE758081,V770A,seek_advice_last_stit_hospital_minsa,0,No
+RE758081,V770A,seek_advice_last_stit_hospital_minsa,1,Yes
+RE758081,V770B,seek_advice_last_sti_health_center_minsa,0,No
+RE758081,V770B,seek_advice_last_sti_health_center_minsa,1,Yes
+RE758081,V770G,seek_advice_last_sti_health_post_minsa,0,No
+RE758081,V770G,seek_advice_last_sti_health_post_minsa,1,Yes
+RE758081,V770H,seek_advice_last_sti_hospital_essalud,0,No
+RE758081,V770H,seek_advice_last_sti_hospital_essalud,1,Yes
+RE758081,V770I,seek_advice_last_sti_health_center_post_essalud,0,No
+RE758081,V770I,seek_advice_last_sti_health_center_post_essalud,1,Yes
+RE758081,V770J,seek_advice_last_sti_other_public,0,No
+RE758081,V770J,seek_advice_last_sti_other_public,1,Yes
+RE758081,V770K,seek_advice_last_sti_private_clinic,0,No
+RE758081,V770K,seek_advice_last_sti_private_clinic,1,Yes
+RE758081,V770M,seek_advice_last_sti_pharmacy,0,No
+RE758081,V770M,seek_advice_last_sti_pharmacy,1,Yes
+RE758081,V770P,seek_advice_last_sti_private_doctor,0,No
+RE758081,V770P,seek_advice_last_sti_private_doctor,1,Yes
+RE758081,V770Q,seek_advice_last_sti_clinic_ngo,0,No
+RE758081,V770Q,seek_advice_last_sti_clinic_ngo,1,Yes
+RE758081,V770S,seek_advice_last_sti_other_private,0,No
+RE758081,V770S,seek_advice_last_sti_other_private,1,Yes
+RE758081,V770U,seek_advice_last_sti_tradition_practitioner,0,No
+RE758081,V770U,seek_advice_last_sti_tradition_practitioner,1,Yes
+RE758081,V770V,seek_advice_last_sti_friend_relative,0,No
+RE758081,V770V,seek_advice_last_sti_friend_relative,1,Yes
+RE758081,V770W,seek_advice_last_sti_auto_medication,0,No
+RE758081,V770W,seek_advice_last_sti_auto_medication,1,Yes
+RE758081,V770X,seek_advice_last_sti_other,0,No
+RE758081,V770X,seek_advice_last_sti_other,1,Yes
+RE758081,V781,ever_been_tested_aids,0,No
+RE758081,V781,ever_been_tested_aids,1,Yes
+RE758081,V783,place_get_tested_aids,1,Yes
+RE758081,V784A,place_get_tested_aids_hospital_minsa,0,No
+RE758081,V784A,place_get_tested_aids_hospital_minsa,1,Yes
+RE758081,V784B,place_get_tested_aids_hiv_health_center_minsa,0,No
+RE758081,V784B,place_get_tested_aids_hiv_health_center_minsa,1,Yes
+RE758081,V784G,place_get_tested_aids_health_post_minsa,0,No
+RE758081,V784G,place_get_tested_aids_health_post_minsa,1,Yes
+RE758081,V784H,place_get_tested_aids_hospital_essalud,0,No
+RE758081,V784H,place_get_tested_aids_hospital_essalud,1,Yes
+RE758081,V784I,place_get_tested_aids_health_center_post_essalud,0,No
+RE758081,V784I,place_get_tested_aids_health_center_post_essalud,1,Yes
+RE758081,V784J,place_get_tested_aids_other_public,0,No
+RE758081,V784J,place_get_tested_aids_other_public,1,Yes
+RE758081,V784K,place_get_tested_aids_private_clinic,0,No
+RE758081,V784K,place_get_tested_aids_private_clinic,1,Yes
+RE758081,V784P,place_get_tested_aids_pivate_doctor,0,No
+RE758081,V784P,place_get_tested_aids_pivate_doctor,1,Yes
+RE758081,V784Q,place_get_tested_aids_clinic_ngo,0,No
+RE758081,V784Q,place_get_tested_aids_clinic_ngo,1,Yes
+RE758081,V784S,place_get_tested_aids_other_private,0,No
+RE758081,V784S,place_get_tested_aids_other_private,1,Yes
+RE758081,V784X,place_get_tested_aids_other,0,No
+RE758081,V784X,place_get_tested_aids_other,1,Yes
+RE758081,V785,heard_other_std,0,No
+RE758081,V785,heard_other_std,1,Yes
+RE758081,V820,use_condom_first_sexual_intercourse,0,No
+RE758081,V820,use_condom_first_sexual_intercourse,1,Yes
+RE758081,V820,use_condom_first_sexual_intercourse,8,Don't know
+RE758081,V828,get_results_last_aids_test,0,No
+RE758081,V828,get_results_last_aids_test,1,Yes
+RE758081,V830,age_first_sexual_partner,98,Don't know
+RE758081,V831,first_sexual_partner_younger_same_age_older,1,Younger
+RE758081,V831,first_sexual_partner_younger_same_age_older,2,About the same age
+RE758081,V831,first_sexual_partner_younger_same_age_older,3,Less than 10 years older
+RE758081,V831,first_sexual_partner_younger_same_age_older,4,10 or more years older
+RE758081,V831,first_sexual_partner_younger_same_age_older,5,"Older, don't know difference"
+RE758081,V831,first_sexual_partner_younger_same_age_older,8,Don't know
+RE758081,V835A,alcohol_comsumption_last_time_sex,0,No
+RE758081,V835A,alcohol_comsumption_last_time_sex,1,Respondet drunk only
+RE758081,V835A,alcohol_comsumption_last_time_sex,2,Partner drunk only
+RE758081,V835A,alcohol_comsumption_last_time_sex,3,Both drunk
+RE758081,V835A,alcohol_comsumption_last_time_sex,4,Neither drunk but consumed alcohol
+RE758081,V836,total_lifetime_sex_partners_last_12_months,98,Don't know
+REC0111,V024,region,1,Amazonas
+REC0111,V024,region,2,Ancash
+REC0111,V024,region,3,Apurimac
+REC0111,V024,region,4,Arequipa
+REC0111,V024,region,5,Ayacucho
+REC0111,V024,region,6,Cajamarca
+REC0111,V024,region,7,Callao
+REC0111,V024,region,8,Cusco
+REC0111,V024,region,9,Huancavelica
+REC0111,V024,region,10,Huanuco
+REC0111,V024,region,11,Ica
+REC0111,V024,region,12,Junin
+REC0111,V024,region,13,La Libertad
+REC0111,V024,region,14,Lambayeque
+REC0111,V024,region,15,Lima
+REC0111,V024,region,16,Loreto
+REC0111,V024,region,17,Madre de Dios
+REC0111,V024,region,18,Moquegua
+REC0111,V024,region,19,Pasco
+REC0111,V024,region,20,Piura
+REC0111,V024,region,21,Puno
+REC0111,V024,region,22,San Martin
+REC0111,V024,region,23,Tacna
+REC0111,V024,region,24,Tumbes
+REC0111,V024,region,25,Ucayali
+REC0111,V025,type_place_residence,1,Urban
+REC0111,V025,type_place_residence,2,Rural
+REC0111,V103,childhood_place_residence,0,"Capital, large city"
+REC0111,V103,childhood_place_residence,1,City
+REC0111,V103,childhood_place_residence,2,Town
+REC0111,V103,childhood_place_residence,3,Countryside
+REC0111,V103,childhood_place_residence,4,Abroad
+REC0111,V103,childhood_place_residence,8,Missing
+REC0111,V104,years_lived_place_residence,95,Always
+REC0111,V104,years_lived_place_residence,96,Visitor
+REC0111,V105,type_place_previous_residence,0,"Capital, large city"
+REC0111,V105,type_place_previous_residence,1,City
+REC0111,V105,type_place_previous_residence,2,Town
+REC0111,V105,type_place_previous_residence,3,Countryside
+REC0111,V105,type_place_previous_residence,4,Abroad
+REC0111,V105,type_place_previous_residence,8,Missing
+REC0111,V106,highest_edu_level_woman,0,No education
+REC0111,V106,highest_edu_level_woman,1,Primary
+REC0111,V106,highest_edu_level_woman,2,Secondary
+REC0111,V106,highest_edu_level_woman,3,Higher
+REC0111,V113,primary_source_drinking_water,11,Piped into dwelling
+REC0111,V113,primary_source_drinking_water,12,Piped outside dwelling but within buikding
+REC0111,V113,primary_source_drinking_water,13,Public tap/standpipe
+REC0111,V113,primary_source_drinking_water,21,Well inside dwelling
+REC0111,V113,primary_source_drinking_water,22,Public well
+REC0111,V113,primary_source_drinking_water,41,Spring
+REC0111,V113,primary_source_drinking_water,43,River / Dam / Lake / Ponds / Stream / Canal / Irrigation channel
+REC0111,V113,primary_source_drinking_water,51,Rainwater
+REC0111,V113,primary_source_drinking_water,61,Tanker truck
+REC0111,V113,primary_source_drinking_water,71,Bottled water
+REC0111,V113,primary_source_drinking_water,96,Other
+REC0111,V113,primary_source_drinking_water,97,Not dejure resident
+REC0111,V115,time_get_primary_source_drinking_water,996,On premises
+REC0111,V115,time_get_primary_source_drinking_water,997,Not dejure resident
+REC0111,V115,time_get_primary_source_drinking_water,998,Missing
+REC0111,V116,type_toilet_facility,11,Inside dwelling
+REC0111,V116,type_toilet_facility,12,Outside dwelling
+REC0111,V116,type_toilet_facility,21,Ventilated latrine
+REC0111,V116,type_toilet_facility,22,Septic well
+REC0111,V116,type_toilet_facility,23,Latrine
+REC0111,V116,type_toilet_facility,24,Latrine over river/lake
+REC0111,V116,type_toilet_facility,31,"River, canal"
+REC0111,V116,type_toilet_facility,32,No service
+REC0111,V116,type_toilet_facility,96,Other
+REC0111,V116,type_toilet_facility,97,Not dejure resident
+REC0111,V119,have_electricity,0,No
+REC0111,V119,have_electricity,1,Yes
+REC0111,V119,have_electricity,7,Not dejure resident
+REC0111,V120,have_radio,0,No
+REC0111,V120,have_radio,1,Yes
+REC0111,V120,have_radio,7,Not dejure resident
+REC0111,V121,have_tv,0,No
+REC0111,V121,have_tv,1,Yes
+REC0111,V121,have_tv,7,Not dejure resident
+REC0111,V122,have_refrigirator,0,No
+REC0111,V122,have_refrigirator,1,Yes
+REC0111,V122,have_refrigirator,7,Not dejure resident
+REC0111,V123,have_bicycle,0,No
+REC0111,V123,have_bicycle,1,Yes
+REC0111,V123,have_bicycle,7,Not dejure resident
+REC0111,V124,have_motorcycle_scooter,0,No
+REC0111,V124,have_motorcycle_scooter,1,Yes
+REC0111,V124,have_motorcycle_scooter,7,Not dejure resident
+REC0111,V125,have_car_truck,0,No
+REC0111,V125,have_car_truck,1,Yes
+REC0111,V125,have_car_truck,7,Not dejure resident
+REC0111,V127,main_floor_material,11,Earth/sand
+REC0111,V127,main_floor_material,21,Wood
+REC0111,V127,main_floor_material,31,Parket
+REC0111,V127,main_floor_material,32,Asphalt tiles/vynil
+REC0111,V127,main_floor_material,33,"Granite, ceramic tiles"
+REC0111,V127,main_floor_material,34,Cement/brick
+REC0111,V127,main_floor_material,96,Other
+REC0111,V127,main_floor_material,97,Not dejure resident
+REC0111,V128,main_wall_material,11,Wood
+REC0111,V128,main_wall_material,12,Estera
+REC0111,V128,main_wall_material,13,Rustic mats
+REC0111,V128,main_wall_material,21,Mud or mud bricks
+REC0111,V128,main_wall_material,22,Bambu with mud
+REC0111,V128,main_wall_material,23,Stone with mud
+REC0111,V128,main_wall_material,24,Carton
+REC0111,V128,main_wall_material,31,Brick/cement blocks
+REC0111,V128,main_wall_material,32,Stone with cal or cement
+REC0111,V128,main_wall_material,33,Compressed wood
+REC0111,V128,main_wall_material,41,No walls
+REC0111,V128,main_wall_material,96,Other
+REC0111,V128,main_wall_material,97,Not dejure resident
+REC0111,V129,main_roof_material,11,Straw and palm leaves
+REC0111,V129,main_roof_material,12,Rush mat
+REC0111,V129,main_roof_material,21,Bambu with mud
+REC0111,V129,main_roof_material,22,Carton
+REC0111,V129,main_roof_material,31,Concrete plaque
+REC0111,V129,main_roof_material,32,Wood
+REC0111,V129,main_roof_material,33,Tiles
+REC0111,V129,main_roof_material,34,Plaque from different materials
+REC0111,V129,main_roof_material,41,With no roof
+REC0111,V129,main_roof_material,96,Other
+REC0111,V129,main_roof_material,97,Not dejure resident
+REC0111,V131,ethnicity,1,Quechua
+REC0111,V131,ethnicity,2,Aymara
+REC0111,V131,ethnicity,3,Ashaninka
+REC0111,V131,ethnicity,4,Awajun / Aguaruna
+REC0111,V131,ethnicity,5,Shipibo / Konibo
+REC0111,V131,ethnicity,6,Shawi / Chayahuita
+REC0111,V131,ethnicity,7,Matsigenka / Machiguenga
+REC0111,V131,ethnicity,8,Achuar
+REC0111,V131,ethnicity,9,Other native or indigeneous language 
+REC0111,V131,ethnicity,10,Spanish speaker
+REC0111,V131,ethnicity,11,Portuguese speaker
+REC0111,V131,ethnicity,12,Other foreign language
+REC0111,V150,relationship_household_head,1,Head
+REC0111,V150,relationship_household_head,2,Wife / Husband
+REC0111,V150,relationship_household_head,3,Daugther / Son
+REC0111,V150,relationship_household_head,4,Daugther-in-law / Son-in-law
+REC0111,V150,relationship_household_head,5,Grand-daughter / Grand-son
+REC0111,V150,relationship_household_head,6,Mother / Father
+REC0111,V150,relationship_household_head,7,Mother-in-law / Father-in-law
+REC0111,V150,relationship_household_head,8,Sister / Brother
+REC0111,V150,relationship_household_head,10,Other relative
+REC0111,V150,relationship_household_head,11,Adopted / Foster child
+REC0111,V150,relationship_household_head,12,Not related
+REC0111,V150,relationship_household_head,15,Domestic employee
+REC0111,V151,sex_household_head,1,Male
+REC0111,V151,sex_household_head,2,Female
+REC0111,V155,literacy,0,Cannot read at all
+REC0111,V155,literacy,1,Able to read only parts of sentence
+REC0111,V155,literacy,2,Able to read whole sentence
+REC0111,V155,literacy,3,No card with required language
+REC0111,V155,literacy,4,Blind / Visually impaired
+REC0111,V190,wealth_index,1,Poorest
+REC0111,V190,wealth_index,2,Poor
+REC0111,V190,wealth_index,3,Middle
+REC0111,V190,wealth_index,4,Rich
+REC0111,V190,wealth_index,5,Richest
+REC91,S1002C,last_current_partner_take_opinion_into_account,0,Never
+REC91,S1002C,last_current_partner_take_opinion_into_account,1,Frequently
+REC91,S1002C,last_current_partner_take_opinion_into_account,2,Sometimes
+REC91,S1002D,last_current_partner_respect_wishes,0,Never
+REC91,S1002D,last_current_partner_respect_wishes,1,Frequently
+REC91,S1002D,last_current_partner_respect_wishes,2,Sometimes
+REC91,S1002E,last_current_partner_respect_rights,0,Never
+REC91,S1002E,last_current_partner_respect_rights,1,Frequently
+REC91,S1002E,last_current_partner_respect_rights,2,Sometimes
+REC91,S108N,edu_level,0,None / Preschool
+REC91,S108N,edu_level,1,Primary
+REC91,S108N,edu_level,2,Secondary
+REC91,S108N,edu_level,3,Non-university higher 
+REC91,S108N,edu_level,4,University higher
+REC91,S108N,edu_level,5,Postgraduate
+REC91,S111,currently_attending_school,0,No
+REC91,S111,currently_attending_school,1,Yes
+REC91,S119,mother_tongue,1,Quechua
+REC91,S119,mother_tongue,2,Aymara
+REC91,S119,mother_tongue,3,Ashaninka
+REC91,S119,mother_tongue,4,Awajun / Aguaruna
+REC91,S119,mother_tongue,5,Shipibo / Konibo
+REC91,S119,mother_tongue,6,Shawi / Chayahuita
+REC91,S119,mother_tongue,7,Matsigenka / Machiguenga
+REC91,S119,mother_tongue,8,Achuar
+REC91,S119,mother_tongue,9,Other native or indigeneous language 
+REC91,S119,mother_tongue,10,Spanish speaker
+REC91,S119,mother_tongue,11,Portuguese speaker
+REC91,S119,mother_tongue,12,Other foreign language
+REC91,S512C,relationship_first_sexual_partner,1,Husband / Partner
+REC91,S512C,relationship_first_sexual_partner,2,Fiance
+REC91,S512C,relationship_first_sexual_partner,3,Friend
+REC91,S512C,relationship_first_sexual_partner,4,Casual partner
+REC91,S512C,relationship_first_sexual_partner,5,Relative
+REC91,S512C,relationship_first_sexual_partner,6,Sexual worker
+REC91,S512C,relationship_first_sexual_partner,7,Boyfriend
+REC91,S512C,relationship_first_sexual_partner,96,Other
+REC91,S621,partner_approve_disapprove_family_planning,1,Approve
+REC91,S621,partner_approve_disapprove_family_planning,2,Disapprove
+REC91,S621,partner_approve_disapprove_family_planning,8,Don't know
+REC91,S704N,partner_edu_level,0,None / Preschool
+REC91,S704N,partner_edu_level,1,Primary
+REC91,S704N,partner_edu_level,2,Secondary
+REC91,S704N,partner_edu_level,3,Non-university higher 
+REC91,S704N,partner_edu_level,4,University higher
+REC91,S704N,partner_edu_level,5,Postgraduate
+REC91,S704N,partner_edu_level,8,Don't know
+REC91,S802,can_something_be_done_prevent_aids,0,No
+REC91,S802,can_something_be_done_prevent_aids,1,Yes
+REC91,S802,can_something_be_done_prevent_aids,8,Don't know
+REC91,S802D,get_aids_embraces_caress,0,No
+REC91,S802D,get_aids_embraces_caress,1,Yes
+REC91,S802D,get_aids_embraces_caress,8,Don't know
+REC91,S802E,get_aids_share_utensils,0,No
+REC91,S802E,get_aids_share_utensils,1,Yes
+REC91,S802E,get_aids_share_utensils,8,Don't know
+REC91,S802F,get_aids_bath_shower_pool,0,No
+REC91,S802F,get_aids_bath_shower_pool,1,Yes
+REC91,S802F,get_aids_bath_shower_pool,8,Don't know
+REC91,S802I,get_aids_divine_punishment,0,No
+REC91,S802I,get_aids_divine_punishment,1,Yes
+REC91,S802I,get_aids_divine_punishment,8,Don't know
+REC91,S803AF,place_get_tested_aids_hospital_other_ffaa_pnp,0,No
+REC91,S803AF,place_get_tested_aids_hospital_other_ffaa_pnp,1,Yes
+REC91,S803AM,place_get_tested_aids_hospital_other_church,0,No
+REC91,S803AM,place_get_tested_aids_hospital_other_church,1,Yes
+REC91,S804A,get_tested_hiv_receive_counseling_before,0,No
+REC91,S804A,get_tested_hiv_receive_counseling_before,1,Yes
+REC91,S804C,when_get_results_recivied_counseling,0,No
+REC91,S804C,when_get_results_recivied_counseling,1,Yes
+REC91,S815AA,know_sti_syphilis,0,No
+REC91,S815AA,know_sti_syphilis,1,Yes
+REC91,S815AB,know_sti_gonorrhea,0,No
+REC91,S815AB,know_sti_gonorrhea,1,Yes
+REC91,S815AC,know_sti_genital_warts_condyloma,0,No
+REC91,S815AC,know_sti_genital_warts_condyloma,1,Yes
+REC91,S815AD,know_sti_chancre,0,No
+REC91,S815AD,know_sti_chancre,1,Yes
+REC91,S815AE,know_sti_herpes,0,No
+REC91,S815AE,know_sti_herpes,1,Yes
+REC91,S815AX,know_sti_other,0,No
+REC91,S815AX,know_sti_other,1,Yes
+REC91,S815AZ,know_sti_dont_know,0,No
+REC91,S815AZ,know_sti_dont_know,1,Yes
+REC91,S816A,std_male_sx_abdominal_pain,0,No
+REC91,S816A,std_male_sx_abdominal_pain,1,Yes
+REC91,S816AA,std_female_sx_abdominal_pain,0,No
+REC91,S816AA,std_female_sx_abdominal_pain,1,Yes
+REC91,S816AB,std_female_sx_genital_discharge,0,No
+REC91,S816AB,std_female_sx_genital_discharge,1,Yes
+REC91,S816AC,std_female_sx_foul_discharge,0,No
+REC91,S816AC,std_female_sx_foul_discharge,1,Yes
+REC91,S816AD,std_female_sx_discomfort_urinating,0,No
+REC91,S816AD,std_female_sx_discomfort_urinating,1,Yes
+REC91,S816AE,std_female_sx_genital_rash,0,No
+REC91,S816AE,std_female_sx_genital_rash,1,Yes
+REC91,S816AF,std_female_sx_genital_swelling,0,No
+REC91,S816AF,std_female_sx_genital_swelling,1,Yes
+REC91,S816AG,std_female_sx_genital_ulcers,0,No
+REC91,S816AG,std_female_sx_genital_ulcers,1,Yes
+REC91,S816AH,std_female_sx_genital_warts,0,No
+REC91,S816AH,std_female_sx_genital_warts,1,Yes
+REC91,S816AI,std_female_sx_blood_urine,0,No
+REC91,S816AI,std_female_sx_blood_urine,1,Yes
+REC91,S816AJ,std_female_sx_weight_loss,0,No
+REC91,S816AJ,std_female_sx_weight_loss,1,Yes
+REC91,S816AK,std_female_sx_infecund,0,No
+REC91,S816AK,std_female_sx_infecund,1,Yes
+REC91,S816AL,std_female_sx_no_symptoms,0,No
+REC91,S816AL,std_female_sx_no_symptoms,1,Yes
+REC91,S816AW,std_female_sx_other,0,No
+REC91,S816AW,std_female_sx_other,1,Yes
+REC91,S816AZ,std_female_sx_dont_know,0,No
+REC91,S816AZ,std_female_sx_dont_know,1,Yes
+REC91,S816B,std_male_sx_genital_discharge,0,No
+REC91,S816B,std_male_sx_genital_discharge,1,Yes
+REC91,S816C,std_male_sx_foul_genital_discharge,0,No
+REC91,S816C,std_male_sx_foul_genital_discharge,1,Yes
+REC91,S816D,std_male_sx_discomfort_urinating,0,No
+REC91,S816D,std_male_sx_discomfort_urinating,1,Yes
+REC91,S816E,std_male_sx_genital_rash,0,No
+REC91,S816E,std_male_sx_genital_rash,1,Yes
+REC91,S816F,std_male_sx_genital_swelling,0,No
+REC91,S816F,std_male_sx_genital_swelling,1,Yes
+REC91,S816G,std_male_sx_genital_ulcers,0,No
+REC91,S816G,std_male_sx_genital_ulcers,1,Yes
+REC91,S816H,std_male_sx_genital_warts,0,No
+REC91,S816H,std_male_sx_genital_warts,1,Yes
+REC91,S816I,std_male_sx_blood_urine,0,No
+REC91,S816I,std_male_sx_blood_urine,1,Yes
+REC91,S816J,std_male_sx_weight_loss,0,No
+REC91,S816J,std_male_sx_weight_loss,1,Yes
+REC91,S816K,std_male_sx_impotence,0,No
+REC91,S816K,std_male_sx_impotence,1,Yes
+REC91,S816L,std_male_sx_no_symptoms,0,No
+REC91,S816L,std_male_sx_no_symptoms,1,Yes
+REC91,S816M,std_male_sx_secretion_pus_pennis,0,No
+REC91,S816M,std_male_sx_secretion_pus_pennis,1,Yes
+REC91,S816W,std_male_sx_other,0,No
+REC91,S816W,std_male_sx_other,1,Yes
+REC91,S816Z,std_male_sx_dont_know,0,No
+REC91,S816Z,std_male_sx_dont_know,1,Yes
+REC91,S817,diagnosed_std_last_12_months,0,No
+REC91,S817,diagnosed_std_last_12_months,1,Yes
+REC91,S817,diagnosed_std_last_12_months,8,Don't know
+REC91,SREGION,natural_region,1,Lima Metropolitan Area
+REC91,SREGION,natural_region,2,Rest of Coast
+REC91,SREGION,natural_region,3,Highland
+REC91,SREGION,natural_region,4,Jungle
+CSALUD01,QS29A,heard_hiv_infection_mef_cs,1,Yes
+CSALUD01,QS29A,heard_hiv_infection_mef_cs,2,No
+CSALUD01,QS29B,heard_aids_mef_cs,1,Yes
+CSALUD01,QS29B,heard_aids_mef_cs,2,No
+CSALUD01,QS402,heard_cervical_cancer,1,Yes
+CSALUD01,QS402,heard_cervical_cancer,2,No
+CSALUD01,QS402,heard_cervical_cancer,8,Don't know
+CSALUD01,QS403,heard_human_papilloma_virus,1,Yes
+CSALUD01,QS403,heard_human_papilloma_virus,2,No
+CSALUD01,QS403,heard_human_papilloma_virus,8,Don't know
+CSALUD01,QS404,papilloma_causes_cervical_cancer,1,Yes
+CSALUD01,QS404,papilloma_causes_cervical_cancer,2,No
+CSALUD01,QS404,papilloma_causes_cervical_cancer,8,Don't know
+CSALUD01,QS601A,heard_hiv_infection_cs,1,Yes
+CSALUD01,QS601A,heard_hiv_infection_cs,2,No
+CSALUD01,QS601B,heard_aids_cs,1,Yes
+CSALUD01,QS601B,heard_aids_cs,2,No
+CSALUD01,QS603,tested_aids_hiv_12_months,1,Yes
+CSALUD01,QS603,tested_aids_hiv_12_months,2,No
+CSALUD01,QS603,tested_aids_hiv_12_months,8,Don't know
+CSALUD01,QS606,reduce_risk_aids_only_one_sex_partner_cs,1,Yes
+CSALUD01,QS606,reduce_risk_aids_only_one_sex_partner_cs,2,No
+CSALUD01,QS606,reduce_risk_aids_only_one_sex_partner_cs,8,Don't know
+CSALUD01,QS607,healthy_looking_person_can_have_aids_cs,1,Yes
+CSALUD01,QS607,healthy_looking_person_can_have_aids_cs,2,No
+CSALUD01,QS607,healthy_looking_person_can_have_aids_cs,8,Don't know
+CSALUD01,QS608,get_aids_embraces_caress_cs,1,Yes
+CSALUD01,QS608,get_aids_embraces_caress_cs,2,No
+CSALUD01,QS608,get_aids_embraces_caress_cs,8,Don't know
+CSALUD01,QS609,get_aids_mosquito_bites_cs,1,Yes
+CSALUD01,QS609,get_aids_mosquito_bites_cs,2,No
+CSALUD01,QS609,get_aids_mosquito_bites_cs,8,Don't know
+CSALUD01,QS610,get_aids_share_utensils_cs,1,Yes
+CSALUD01,QS610,get_aids_share_utensils_cs,2,No
+CSALUD01,QS610,get_aids_share_utensils_cs,8,Don't know
+CSALUD01,QS611,reduce_risk_aids_using_condom_cs,1,Yes
+CSALUD01,QS611,reduce_risk_aids_using_condom_cs,2,No
+CSALUD01,QS611,reduce_risk_aids_using_condom_cs,8,Don't know
+RE223132,V213,currently_pregnant,0,No or unsure
+RE223132,V213,currently_pregnant,1,Yes
+RE223132,V225,current_pregnancy_wanted,1,Then
+RE223132,V225,current_pregnancy_wanted,2,Later
+RE223132,V225,current_pregnancy_wanted,3,Not at all
+RE223132,V228,ever_terminated_pregnancy,0,No
+RE223132,V228,ever_terminated_pregnancy,1,Yes
+RE223132,V312,current_contraceptive_method,0,Not using
+RE223132,V312,current_contraceptive_method,1,Pill
+RE223132,V312,current_contraceptive_method,2,IUD
+RE223132,V312,current_contraceptive_method,3,Injections
+RE223132,V312,current_contraceptive_method,5,Condom
+RE223132,V312,current_contraceptive_method,6,Female sterilization
+RE223132,V312,current_contraceptive_method,7,Male sterilization
+RE223132,V312,current_contraceptive_method,8,Periodic abstinence
+RE223132,V312,current_contraceptive_method,9,Withdrawal
+RE223132,V312,current_contraceptive_method,10,Other
+RE223132,V312,current_contraceptive_method,11,Norplant
+RE223132,V312,current_contraceptive_method,13,Lactational amenorrhea
+RE223132,V312,current_contraceptive_method,14,Female condom
+RE223132,V312,current_contraceptive_method,15,Foam or jelly
+RE223132,V312,current_contraceptive_method,16,Emergency contraception
+RE223132,V313,current_contraceptive_method_type,0,No method
+RE223132,V313,current_contraceptive_method_type,1,Folkloric method
+RE223132,V313,current_contraceptive_method_type,2,Traditional method
+RE223132,V313,current_contraceptive_method_type,3,Modern method
+RE223132,V326,source_current_contraceptive_method,11,Hospital - MINSA
+RE223132,V326,source_current_contraceptive_method,12,Health center - MINSA
+RE223132,V326,source_current_contraceptive_method,13,Health post - MINSA
+RE223132,V326,source_current_contraceptive_method,14,Health worker - MINSA
+RE223132,V326,source_current_contraceptive_method,15,Hospital - ESSALUD
+RE223132,V326,source_current_contraceptive_method,16,Center / Post - ESSALUD
+RE223132,V326,source_current_contraceptive_method,17,Hospital / Other - FFAA & PNP
+RE223132,V326,source_current_contraceptive_method,18,Hospital / Other - Local Government
+RE223132,V326,source_current_contraceptive_method,19,Other - Government
+RE223132,V326,source_current_contraceptive_method,21,Private clinic
+RE223132,V326,source_current_contraceptive_method,22,Pharmacy
+RE223132,V326,source_current_contraceptive_method,23,Private doctor
+RE223132,V326,source_current_contraceptive_method,24,Clinic / FP post - NGO
+RE223132,V326,source_current_contraceptive_method,25,Health worker - NGO
+RE223132,V326,source_current_contraceptive_method,31,Shop / Supermarket
+RE223132,V326,source_current_contraceptive_method,32,Church
+RE223132,V326,source_current_contraceptive_method,33,Friends / Relatives
+RE223132,V326,source_current_contraceptive_method,95,Automedication
+RE223132,V326,source_current_contraceptive_method,96,Other
+RE223132,V326,source_current_contraceptive_method,98,Don't know
+RE223132,V327,source_current_contraceptive_method_type,1,Hospital / Health center / Health post / Polyclinic - Government
+RE223132,V327,source_current_contraceptive_method_type,2,Health worker - Government
+RE223132,V327,source_current_contraceptive_method_type,3,NGO
+RE223132,V327,source_current_contraceptive_method_type,4,Private clinic / Private doctor
+RE223132,V327,source_current_contraceptive_method_type,5,Pharmacy
+RE223132,V327,source_current_contraceptive_method_type,6,Shop / Church / Friends
+RE223132,V327,source_current_contraceptive_method_type,7,Other
+RE223132,V327,source_current_contraceptive_method_type,8,Don't know
+RE223132,V384A,heard_fp_radio_last_month,0,No
+RE223132,V384A,heard_fp_radio_last_month,1,Yes
+RE223132,V384B,heard_fp_tv_last_month,0,No
+RE223132,V384B,heard_fp_tv_last_month,1,Yes
+RE223132,V384C,heard_fp_newspaper_last_month,0,No
+RE223132,V384C,heard_fp_newspaper_last_month,1,Yes
+RE223132,V393,visited_fp_worker_last_12_months,0,No
+RE223132,V393,visited_fp_worker_last_12_months,1,Yes
+RE223132,V395,at_health_facility_told_fp,0,No
+RE223132,V395,at_health_facility_told_fp,1,Yes
+RE516171,V740,type_land_respondent_work,0,Own land
+RE516171,V740,type_land_respondent_work,1,Family land
+RE516171,V740,type_land_respondent_work,2,Someone else's land
+RE516171,V740,type_land_respondent_work,3,Rented land
+RE516171,V740,type_land_respondent_work,4,Community land
+RE758081,V750,heard_hiv_infection,0,No
+RE758081,V751,heard_aids,0,No
+RE758081,V768A,length_time_knows_last_partner,998,Don't know
+RE758081,V783,place_get_tested_aids,0,No
+RE758081,V821A,last_sexual_partner_younger_same_age_older,1,Younger
+RE758081,V821A,last_sexual_partner_younger_same_age_older,2,About the same age
+RE758081,V821A,last_sexual_partner_younger_same_age_older,3,Less than 10 years older
+RE758081,V821A,last_sexual_partner_younger_same_age_older,4,10 or more years older
+RE758081,V821A,last_sexual_partner_younger_same_age_older,5,"Older, don't know the difference"
+RE758081,V821A,last_sexual_partner_younger_same_age_older,8,Don't know
+RE758081,V833A,use_condom_every_time_last_sexual_partner,0,No
+RE758081,V833A,use_condom_every_time_last_sexual_partner,1,Yes
+RE758081,V833B,use_condom_every_time_next_last_sexual_partner,0,No
+RE758081,V833B,use_condom_every_time_next_last_sexual_partner,1,Yes
+RE758081,V834A,age_last_sexual_partner,98,Don't know
+REC91,S1008AN,freq_pain_abuse_12_months,0,Never
+REC91,S1008AN,freq_pain_abuse_12_months,1,Frequently
+REC91,S1008AN,freq_pain_abuse_12_months,2,Sometimes
+REC91,S1008BN,freq_broken_bones_abuse_12_months,0,Never
+REC91,S1008BN,freq_broken_bones_abuse_12_months,1,Frequently
+REC91,S1008BN,freq_broken_bones_abuse_12_months,2,Sometimes
+REC91,S1008CN,freq_see_doctor_abuse_12_months,0,Never
+REC91,S1008CN,freq_see_doctor_abuse_12_months,1,Frequently
+REC91,S1008CN,freq_see_doctor_abuse_12_months,2,Sometimes
+REC91,S1012B,alcohol_drugs_influence_abuse,0,No
+REC91,S1012B,alcohol_drugs_influence_abuse,1,Yes
+REC91,S1012BN,freq_alcohol_drugs_influence_abuse_12_months,0,Never
+REC91,S1012BN,freq_alcohol_drugs_influence_abuse_12_months,1,Frequently
+REC91,S1012BN,freq_alcohol_drugs_influence_abuse_12_months,2,Sometimes
+REC91,S108N,edu_level,9,Missing
+REC91,S229B1,covered_health_insurance,1,"Yes, and show the record"
+REC91,S229B1,covered_health_insurance,2,"Yes, and don't show the record"
+REC91,S802D,get_aids_embraces_caress,0,No
+REC91,S802D,get_aids_embraces_caress,1,Yes
+REC91,S802D,get_aids_embraces_caress,8,Don't know
+REC91,S802E,get_aids_share_utensils,0,No
+REC91,S802E,get_aids_share_utensils,1,Yes
+REC91,S802E,get_aids_share_utensils,8,Don't know
+REC91,S802F,get_aids_bath_shower_pool,0,No
+REC91,S802F,get_aids_bath_shower_pool,1,Yes
+REC91,S802F,get_aids_bath_shower_pool,8,Don't know
+REC91,S802H,people_can_get_aids_supernatural,0,No
+REC91,S802H,people_can_get_aids_supernatural,1,Yes
+REC91,S802H,people_can_get_aids_supernatural,8,Don't know
+REC91,S802I,get_aids_divine_punishment,0,No
+REC91,S802I,get_aids_divine_punishment,1,Yes
+REC91,S802I,get_aids_divine_punishment,8,Don't know
+REC91,S816M,std_male_sx_secretion_pus_pennis,0,No
+REC91,S816M,std_male_sx_secretion_pus_pennis,1,Yes
+RECH1,HV101,relationship_to_head,1,Head
+RECH1,HV101,relationship_to_head,2,Wife / Husband
+RECH1,HV101,relationship_to_head,3,Son / Daughter
+RECH1,HV101,relationship_to_head,4,Son-in-law / Daughter-in-law
+RECH1,HV101,relationship_to_head,5,Grandchild
+RECH1,HV101,relationship_to_head,6,Parent
+RECH1,HV101,relationship_to_head,7,Parent-in-law
+RECH1,HV101,relationship_to_head,8,Brother / Sister
+RECH1,HV101,relationship_to_head,10,Other relative
+RECH1,HV101,relationship_to_head,11,Adopted child / Foster child
+RECH1,HV101,relationship_to_head,12,Not related
+RECH1,HV101,relationship_to_head,15,Housekeeper
+RECH1,HV102,usual_resident,0,No
+RECH1,HV102,usual_resident,1,Yes
+RECH1,HV103,selpt_last_night,0,No
+RECH1,HV103,selpt_last_night,1,Yes
+RECH1,HV104,sex_household_member,1,Male
+RECH1,HV104,sex_household_member,2,Female
+RECH1,HV106,highest_edu_level,0,No education / Preschool
+RECH1,HV106,highest_edu_level,1,Primary
+RECH1,HV106,highest_edu_level,2,Secondary
+RECH1,HV106,highest_edu_level,3,Higher
+RECH1,HV106,highest_edu_level,8,Don't know
+RECH1,HV107,highest_year_edu,98,Don't know
+RECH1,HV108,edu_single_years,98,Don't know
+RECH1,HV109,edu_attainment,0,No education
+RECH1,HV109,edu_attainment,1,Incomplete primary
+RECH1,HV109,edu_attainment,2,Complete primary
+RECH1,HV109,edu_attainment,3,Incomplete secondary
+RECH1,HV109,edu_attainment,4,Complete secondary
+RECH1,HV109,edu_attainment,5,Higher
+RECH1,HV109,edu_attainment,8,Don't know
+RECH1,HV110,member_still_school,0,No
+RECH1,HV110,member_still_school,1,Yes
+RECH1,HV111,mother_alive,0,No
+RECH1,HV111,mother_alive,1,Yes
+RECH1,HV111,mother_alive,8,Don't know
+RECH1,HV113,father_alive,0,No
+RECH1,HV113,father_alive,1,Yes
+RECH1,HV113,father_alive,8,Don't know
+RECH1,HV115,current_marital_status,0,Never married
+RECH1,HV115,current_marital_status,1,Married
+RECH1,HV115,current_marital_status,2,Living together
+RECH1,HV115,current_marital_status,3,Widowed
+RECH1,HV115,current_marital_status,4,Divorced
+RECH1,HV115,current_marital_status,5,Separated
+RECH1,HV116,ever_married,0,Never married
+RECH1,HV116,ever_married,1,Currently married
+RECH1,HV116,ever_married,2,Formerly married / Ever married
+RECH1,HV117,eligibility_female_interview,0,Not eligible
+RECH1,HV117,eligibility_female_interview,1,Eligible
+RECH1,HV120,children_eligibility,0,Not eligible
+RECH1,HV120,children_eligibility,1,Eligible
+RECH1,HV121,attended_school_current_year,0,No
+RECH1,HV121,attended_school_current_year,1,Currently attending
+RECH1,HV121,attended_school_current_year,2,Attended at some time
+RECH1,HV122,edu_level_current_year,0,No education / Preschool
+RECH1,HV122,edu_level_current_year,1,Primary
+RECH1,HV122,edu_level_current_year,2,Secondary
+RECH1,HV122,edu_level_current_year,3,Higher
+RECH1,HV122,edu_level_current_year,8,Don't know
+RECH1,HV123,grade_edu_current_year,98,Don't know
+RECH1,HV124,edu_single_years_current_year,98,Don't know
+RECH1,HV125,attended_school_previous_year,0,No
+RECH1,HV125,attended_school_previous_year,1,Yes
+RECH1,HV126,edu_level_previous_year,0,No education / Preschool
+RECH1,HV126,edu_level_previous_year,1,Primary
+RECH1,HV126,edu_level_previous_year,2,Secondary
+RECH1,HV126,edu_level_previous_year,3,Higher
+RECH1,HV126,edu_level_previous_year,8,Don't know
+RECH1,HV127,grade_edu_previous_year,98,Don't know
+RECH1,HV128,edu_single_years_previous_year,98,Don't know
+RECH1,HV129,school_attendance_status,0,Never attended
+RECH1,HV129,school_attendance_status,1,Entered school
+RECH1,HV129,school_attendance_status,2,Advanced
+RECH1,HV129,school_attendance_status,3,Repeating
+RECH1,HV129,school_attendance_status,4,Dropout
+RECH1,HV129,school_attendance_status,5,Left school 2 or more years ago

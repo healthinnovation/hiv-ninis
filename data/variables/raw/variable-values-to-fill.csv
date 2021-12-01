@@ -1,0 +1,235 @@
+survey,variable,variable_name,value,value_description
+CSALUD01,QS29A,heard_hiv_infection_mef_cs,1,Yes
+CSALUD01,QS29A,heard_hiv_infection_mef_cs,2,No
+CSALUD01,QS29B,heard_aids_mef_cs,1,Yes
+CSALUD01,QS29B,heard_aids_mef_cs,2,No
+CSALUD01,QS402,heard_cervical_cancer,1,Yes
+CSALUD01,QS402,heard_cervical_cancer,2,No
+CSALUD01,QS402,heard_cervical_cancer,8,Don't know
+CSALUD01,QS403,heard_human_papilloma_virus,1,Yes
+CSALUD01,QS403,heard_human_papilloma_virus,2,No
+CSALUD01,QS403,heard_human_papilloma_virus,8,Don't know
+CSALUD01,QS404,papilloma_causes_cervical_cancer,1,Yes
+CSALUD01,QS404,papilloma_causes_cervical_cancer,2,No
+CSALUD01,QS404,papilloma_causes_cervical_cancer,8,Don't know
+CSALUD01,QS601A,heard_hiv_infection_cs,1,Yes
+CSALUD01,QS601A,heard_hiv_infection_cs,2,No
+CSALUD01,QS601B,heard_aids_cs,1,Yes
+CSALUD01,QS601B,heard_aids_cs,2,No
+CSALUD01,QS603,tested_aids_hiv_12_months,1,Yes
+CSALUD01,QS603,tested_aids_hiv_12_months,2,No
+CSALUD01,QS603,tested_aids_hiv_12_months,8,Don't know
+CSALUD01,QS606,reduce_risk_aids_only_one_sex_partner_cs,1,Yes
+CSALUD01,QS606,reduce_risk_aids_only_one_sex_partner_cs,2,No
+CSALUD01,QS606,reduce_risk_aids_only_one_sex_partner_cs,8,Don't know
+CSALUD01,QS607,healthy_looking_person_can_have_aids_cs,1,Yes
+CSALUD01,QS607,healthy_looking_person_can_have_aids_cs,2,No
+CSALUD01,QS607,healthy_looking_person_can_have_aids_cs,8,Don't know
+CSALUD01,QS608,get_aids_embraces_caress_cs,1,Yes
+CSALUD01,QS608,get_aids_embraces_caress_cs,2,No
+CSALUD01,QS608,get_aids_embraces_caress_cs,8,Don't know
+CSALUD01,QS609,get_aids_mosquito_bites_cs,1,Yes
+CSALUD01,QS609,get_aids_mosquito_bites_cs,2,No
+CSALUD01,QS609,get_aids_mosquito_bites_cs,8,Don't know
+CSALUD01,QS610,get_aids_share_utensils_cs,1,Yes
+CSALUD01,QS610,get_aids_share_utensils_cs,2,No
+CSALUD01,QS610,get_aids_share_utensils_cs,8,Don't know
+CSALUD01,QS611,reduce_risk_aids_using_condom_cs,1,Yes
+CSALUD01,QS611,reduce_risk_aids_using_condom_cs,2,No
+CSALUD01,QS611,reduce_risk_aids_using_condom_cs,8,Don't know
+RE223132,V213,currently_pregnant,0,No or unsure
+RE223132,V213,currently_pregnant,1,Yes
+RE223132,V225,current_pregnancy_wanted,1,Then
+RE223132,V225,current_pregnancy_wanted,2,Later
+RE223132,V225,current_pregnancy_wanted,3,Not at all
+RE223132,V228,ever_terminated_pregnancy,0,No
+RE223132,V228,ever_terminated_pregnancy,1,Yes
+RE223132,V312,current_contraceptive_method,0,Not using
+RE223132,V312,current_contraceptive_method,1,Pill
+RE223132,V312,current_contraceptive_method,2,IUD
+RE223132,V312,current_contraceptive_method,3,Injections
+RE223132,V312,current_contraceptive_method,5,Condom
+RE223132,V312,current_contraceptive_method,6,Female sterilization
+RE223132,V312,current_contraceptive_method,7,Male sterilization
+RE223132,V312,current_contraceptive_method,8,Periodic abstinence
+RE223132,V312,current_contraceptive_method,9,Withdrawal
+RE223132,V312,current_contraceptive_method,10,Other
+RE223132,V312,current_contraceptive_method,11,Norplant
+RE223132,V312,current_contraceptive_method,13,Lactational amenorrhea
+RE223132,V312,current_contraceptive_method,14,Female condom
+RE223132,V312,current_contraceptive_method,15,Foam or jelly
+RE223132,V312,current_contraceptive_method,16,Emergency contraception
+RE223132,V313,current_contraceptive_method_type,0,No method
+RE223132,V313,current_contraceptive_method_type,1,Folkloric method
+RE223132,V313,current_contraceptive_method_type,2,Traditional method
+RE223132,V313,current_contraceptive_method_type,3,Modern method
+RE223132,V326,source_current_contraceptive_method,11,Hospital - MINSA
+RE223132,V326,source_current_contraceptive_method,12,Health center - MINSA
+RE223132,V326,source_current_contraceptive_method,13,Health post - MINSA
+RE223132,V326,source_current_contraceptive_method,14,Health worker - MINSA
+RE223132,V326,source_current_contraceptive_method,15,Hospital - ESSALUD
+RE223132,V326,source_current_contraceptive_method,16,Center / Post - ESSALUD
+RE223132,V326,source_current_contraceptive_method,17,Hospital / Other - FFAA & PNP
+RE223132,V326,source_current_contraceptive_method,18,Hospital / Other - Local Government
+RE223132,V326,source_current_contraceptive_method,19,Other - Government
+RE223132,V326,source_current_contraceptive_method,21,Private clinic
+RE223132,V326,source_current_contraceptive_method,22,Pharmacy
+RE223132,V326,source_current_contraceptive_method,23,Private doctor
+RE223132,V326,source_current_contraceptive_method,24,Clinic / FP post - NGO
+RE223132,V326,source_current_contraceptive_method,25,Health worker - NGO
+RE223132,V326,source_current_contraceptive_method,31,Shop / Supermarket
+RE223132,V326,source_current_contraceptive_method,32,Church
+RE223132,V326,source_current_contraceptive_method,33,Friends / Relatives
+RE223132,V326,source_current_contraceptive_method,95,Automedication
+RE223132,V326,source_current_contraceptive_method,96,Other
+RE223132,V326,source_current_contraceptive_method,98,Don't know
+RE223132,V327,source_current_contraceptive_method_type,1,Hospital / Health center / Health post / Polyclinic - Government
+RE223132,V327,source_current_contraceptive_method_type,2,Health worker - Government
+RE223132,V327,source_current_contraceptive_method_type,3,NGO
+RE223132,V327,source_current_contraceptive_method_type,4,Private clinic / Private doctor
+RE223132,V327,source_current_contraceptive_method_type,5,Pharmacy
+RE223132,V327,source_current_contraceptive_method_type,6,Shop / Church / Friends
+RE223132,V327,source_current_contraceptive_method_type,7,Other
+RE223132,V327,source_current_contraceptive_method_type,8,Don't know
+RE223132,V384A,heard_fp_radio_last_month,0,No
+RE223132,V384A,heard_fp_radio_last_month,1,Yes
+RE223132,V384B,heard_fp_tv_last_month,0,No
+RE223132,V384B,heard_fp_tv_last_month,1,Yes
+RE223132,V384C,heard_fp_newspaper_last_month,0,No
+RE223132,V384C,heard_fp_newspaper_last_month,1,Yes
+RE223132,V393,visited_fp_worker_last_12_months,0,No
+RE223132,V393,visited_fp_worker_last_12_months,1,Yes
+RE223132,V395,at_health_facility_told_fp,0,No
+RE223132,V395,at_health_facility_told_fp,1,Yes
+RE516171,V740,type_land_respondent_work,0,Own land
+RE516171,V740,type_land_respondent_work,1,Family land
+RE516171,V740,type_land_respondent_work,2,Someone else's land
+RE516171,V740,type_land_respondent_work,3,Rented land
+RE516171,V740,type_land_respondent_work,4,Community land
+RE758081,V750,heard_hiv_infection,0,No
+RE758081,V751,heard_aids,0,No
+RE758081,V768A,length_time_knows_last_partner,998,Don't know
+RE758081,V783,place_get_tested_aids,0,No
+RE758081,V821A,last_sexual_partner_younger_same_age_older,1,Younger
+RE758081,V821A,last_sexual_partner_younger_same_age_older,2,About the same age
+RE758081,V821A,last_sexual_partner_younger_same_age_older,3,Less than 10 years older
+RE758081,V821A,last_sexual_partner_younger_same_age_older,4,10 or more years older
+RE758081,V821A,last_sexual_partner_younger_same_age_older,5,"Older, don't know the difference"
+RE758081,V821A,last_sexual_partner_younger_same_age_older,8,Don't know
+RE758081,V833A,use_condom_every_time_last_sexual_partner,0,No
+RE758081,V833A,use_condom_every_time_last_sexual_partner,1,Yes
+RE758081,V833B,use_condom_every_time_next_last_sexual_partner,0,No
+RE758081,V833B,use_condom_every_time_next_last_sexual_partner,1,Yes
+RE758081,V834A,age_last_sexual_partner,98,Don't know
+REC91,S1008AN,freq_pain_abuse_12_months,0,Never
+REC91,S1008AN,freq_pain_abuse_12_months,1,Frequently
+REC91,S1008AN,freq_pain_abuse_12_months,2,Sometimes
+REC91,S1008BN,freq_broken_bones_abuse_12_months,0,Never
+REC91,S1008BN,freq_broken_bones_abuse_12_months,1,Frequently
+REC91,S1008BN,freq_broken_bones_abuse_12_months,2,Sometimes
+REC91,S1008CN,freq_see_doctor_abuse_12_months,0,Never
+REC91,S1008CN,freq_see_doctor_abuse_12_months,1,Frequently
+REC91,S1008CN,freq_see_doctor_abuse_12_months,2,Sometimes
+REC91,S1012B,alcohol_drugs_influence_abuse,0,No
+REC91,S1012B,alcohol_drugs_influence_abuse,1,Yes
+REC91,S1012BN,freq_alcohol_drugs_influence_abuse_12_months,0,Never
+REC91,S1012BN,freq_alcohol_drugs_influence_abuse_12_months,1,Frequently
+REC91,S1012BN,freq_alcohol_drugs_influence_abuse_12_months,2,Sometimes
+REC91,S108N,edu_level,9,Missing
+REC91,S229B1,covered_health_insurance,1,"Yes, and show the record"
+REC91,S229B1,covered_health_insurance,2,"Yes, and don't show the record"
+REC91,S802D,get_aids_embraces_caress,0,No
+REC91,S802D,get_aids_embraces_caress,1,Yes
+REC91,S802D,get_aids_embraces_caress,8,Don't know
+REC91,S802E,get_aids_share_utensils,0,No
+REC91,S802E,get_aids_share_utensils,1,Yes
+REC91,S802E,get_aids_share_utensils,8,Don't know
+REC91,S802F,get_aids_bath_shower_pool,0,No
+REC91,S802F,get_aids_bath_shower_pool,1,Yes
+REC91,S802F,get_aids_bath_shower_pool,8,Don't know
+REC91,S802H,people_can_get_aids_supernatural,0,No
+REC91,S802H,people_can_get_aids_supernatural,1,Yes
+REC91,S802H,people_can_get_aids_supernatural,8,Don't know
+REC91,S802I,get_aids_divine_punishment,0,No
+REC91,S802I,get_aids_divine_punishment,1,Yes
+REC91,S802I,get_aids_divine_punishment,8,Don't know
+REC91,S816M,std_male_sxn_secretion_pus_pennis,0,No
+REC91,S816M,std_male_sxn_secretion_pus_pennis,1,Yes
+RECH1,HV101,relationship_to_head,1,Head
+RECH1,HV101,relationship_to_head,2,Wife / Husband
+RECH1,HV101,relationship_to_head,3,Son / Daughter
+RECH1,HV101,relationship_to_head,4,Son-in-law / Daughter-in-law
+RECH1,HV101,relationship_to_head,5,Grandchild
+RECH1,HV101,relationship_to_head,6,Parent
+RECH1,HV101,relationship_to_head,7,Parent-in-law
+RECH1,HV101,relationship_to_head,8,Brother / Sister
+RECH1,HV101,relationship_to_head,10,Other relative
+RECH1,HV101,relationship_to_head,11,Adopted child / Foster child
+RECH1,HV101,relationship_to_head,12,Not related
+RECH1,HV101,relationship_to_head,15,Housekeeper
+RECH1,HV102,usual_resident,0,No
+RECH1,HV102,usual_resident,1,Yes
+RECH1,HV103,selpt_last_night,0,No
+RECH1,HV103,selpt_last_night,1,Yes
+RECH1,HV104,sex_household_member,1,Male
+RECH1,HV104,sex_household_member,2,Female
+RECH1,HV106,highest_edu_level,0,No education / Preschool
+RECH1,HV106,highest_edu_level,1,Primary
+RECH1,HV106,highest_edu_level,2,Secondary
+RECH1,HV106,highest_edu_level,3,Higher
+RECH1,HV106,highest_edu_level,8,Don't know
+RECH1,HV107,highest_year_edu,98,Don't know
+RECH1,HV108,edu_single_years,98,Don't know
+RECH1,HV109,edu_attainment,0,No education
+RECH1,HV109,edu_attainment,1,Incomplete primary
+RECH1,HV109,edu_attainment,2,Complete primary
+RECH1,HV109,edu_attainment,3,Incomplete secondary
+RECH1,HV109,edu_attainment,4,Complete secondary
+RECH1,HV109,edu_attainment,5,Higher
+RECH1,HV109,edu_attainment,8,Don't know
+RECH1,HV110,member_still_school,0,No
+RECH1,HV110,member_still_school,1,Yes
+RECH1,HV111,mother_alive,0,No
+RECH1,HV111,mother_alive,1,Yes
+RECH1,HV111,mother_alive,8,Don't know
+RECH1,HV113,father_alive,0,No
+RECH1,HV113,father_alive,1,Yes
+RECH1,HV113,father_alive,8,Don't know
+RECH1,HV115,current_marital_status,0,Never married
+RECH1,HV115,current_marital_status,1,Married
+RECH1,HV115,current_marital_status,2,Living together
+RECH1,HV115,current_marital_status,3,Widowed
+RECH1,HV115,current_marital_status,4,Divorced
+RECH1,HV115,current_marital_status,5,Separated
+RECH1,HV116,ever_married,0,Never married
+RECH1,HV116,ever_married,1,Currently married
+RECH1,HV116,ever_married,2,Formerly married / Ever married
+RECH1,HV117,eligibility_female_interview,0,Not eligible
+RECH1,HV117,eligibility_female_interview,1,Eligible
+RECH1,HV120,children_eligibility,0,Not eligible
+RECH1,HV120,children_eligibility,1,Eligible
+RECH1,HV121,attended_school_current_year,0,No
+RECH1,HV121,attended_school_current_year,1,Currently attending
+RECH1,HV121,attended_school_current_year,2,Attended at some time
+RECH1,HV122,edu_level_current_year,0,No education / Preschool
+RECH1,HV122,edu_level_current_year,1,Primary
+RECH1,HV122,edu_level_current_year,2,Secondary
+RECH1,HV122,edu_level_current_year,3,Higher
+RECH1,HV122,edu_level_current_year,8,Don't know
+RECH1,HV123,grade_edu_current_year,98,Don't know
+RECH1,HV124,edu_single_years_current_year,98,Don't know
+RECH1,HV125,attended_school_previous_year,0,No
+RECH1,HV125,attended_school_previous_year,1,Yes
+RECH1,HV126,edu_level_previous_year,0,No education / Preschool
+RECH1,HV126,edu_level_previous_year,1,Primary
+RECH1,HV126,edu_level_previous_year,2,Secondary
+RECH1,HV126,edu_level_previous_year,3,Higher
+RECH1,HV126,edu_level_previous_year,8,Don't know
+RECH1,HV127,grade_edu_previous_year,98,Don't know
+RECH1,HV128,edu_single_years_previous_year,98,Don't know
+RECH1,HV129,school_attendance_status,0,Never attended
+RECH1,HV129,school_attendance_status,1,Entered school
+RECH1,HV129,school_attendance_status,2,Advanced
+RECH1,HV129,school_attendance_status,3,Repeating
+RECH1,HV129,school_attendance_status,4,Dropout
+RECH1,HV129,school_attendance_status,5,Left school 2 or more years ago

@@ -159,5 +159,5 @@ write_csv(variables_to_export, variables_out_file_path, na = "")
 data_out_path <- path("data", "interim")
 data_out_file_name <- "dataset-without-names.csv"
 data_out_file_path <- path(data_out_path, data_out_file_name)
-write_csv(dataset_select, data_out_file_path)
+write_csv(dataset_select, data_out_file_path, na = "")
 
