@@ -7,8 +7,6 @@ library(readr)
 library(stringi)
 library(tidyr)
 
-#TODO: Check V833B
-
 # Read surveys and variables ----------------------------------------------
 
 variables_path <- path("data", "variables")
@@ -23,8 +21,10 @@ endes_surveys <- unique(variables_dtfr$survey)
 raw_path <- path("data", "raw")
 endes_path <- path(raw_path, "endes")
 endes_files <- dir_ls(endes_path, recurse = T, glob = "*.sav")
+
 pattern <- paste(endes_surveys, collapse = "|")
 endes_files <- endes_files[grepl(pattern, endes_files)]
+
 surveys_raw <- map(endes_files, read_sav)
 
 # Select variables --------------------------------------------------------
