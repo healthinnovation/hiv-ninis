@@ -929,3 +929,49 @@ RECH1,HV129,school_attendance_status,2,Advanced
 RECH1,HV129,school_attendance_status,3,Repeating
 RECH1,HV129,school_attendance_status,4,Dropout
 RECH1,HV129,school_attendance_status,5,Left school 2 or more years ago
+PROGRAMAS_SOCIALES,QH106,wawa_wasi_cuna_mas_beneficiary,1,Yes
+PROGRAMAS_SOCIALES,QH106,wawa_wasi_cuna_mas_beneficiary,2,No
+PROGRAMAS_SOCIALES,QH106,wawa_wasi_cuna_mas_beneficiary,8,Don't know
+PROGRAMAS_SOCIALES,QH95,juntos_beneficiary,1,Yes
+REC84DV,D101A,psychological_verbal_violence_talking_men,0,No
+REC84DV,D101A,psychological_verbal_violence_talking_men,1,Yes
+REC84DV,D101A,psychological_verbal_violence_talking_men,8,Don't know
+REC84DV,D101B,psychological_verbal_violence_accuse_infidelity,0,No
+REC84DV,D101B,psychological_verbal_violence_accuse_infidelity,1,Yes
+REC84DV,D101B,psychological_verbal_violence_accuse_infidelity,8,Don't know
+REC84DV,D101C,psychological_verbal_violence_visit_friends_impediment,0,No
+REC84DV,D101C,psychological_verbal_violence_visit_friends_impediment,1,Yes
+REC84DV,D101C,psychological_verbal_violence_visit_friends_impediment,8,Don't know
+REC84DV,D101D,psychological_verbal_violence_visit_family_impediment,0,No
+REC84DV,D101D,psychological_verbal_violence_visit_family_impediment,1,Yes
+REC84DV,D101D,psychological_verbal_violence_visit_family_impediment,8,Don't know
+REC84DV,D101E,psychological_verbal_violence_know_places,0,No
+REC84DV,D101E,psychological_verbal_violence_know_places,1,Yes
+REC84DV,D101E,psychological_verbal_violence_know_places,8,Don't know
+REC84DV,D101F,psychological_verbal_violence_mistrust_money,0,No
+REC84DV,D101F,psychological_verbal_violence_mistrust_money,1,Yes
+REC84DV,D101F,psychological_verbal_violence_mistrust_money,8,Don't know
+REC84DV,D104,emotional_violence,0,No
+REC84DV,D104,emotional_violence,1,Yes
+REC84DV,D106,mild_physical_violence,0,No
+REC84DV,D106,mild_physical_violence,1,Yes
+REC84DV,D107,severe_physical_violence,0,No
+REC84DV,D107,severe_physical_violence,1,Yes
+REC84DV,D108,sexual_violence,0,No
+REC84DV,D108,sexual_violence,1,Yes
+REC84DV,D118Y,physical_violence_pregnancy_nobody,0,No
+REC84DV,D118Y,physical_violence_pregnancy_nobody,1,Yes
+REC91,S229A1,months_pregnancy_first_control,98,Don't know
+REC91,S803AG,place_hiv_testing_municipality,0,No
+REC91,S803AG,place_hiv_testing_municipality,1,Yes
+REC94,S410B,months_pregnancy_last_prenatal_checkup,98,Don't know
+REC94,S411DA,months_pregnancy_syphilis_testing,98,Don't know
+REC94,S411EA,months_pregnancy_hiv_testing,98,Don't know
+REC94,S411G,checkup_rule_out_syphilis,0,No
+REC94,S411G,checkup_rule_out_syphilis,1,Yes
+REC94,S411G,checkup_rule_out_syphilis,8,Don't know
+REC94,S411H,checkup_rule_out_hiv_aids,0,No
+REC94,S411H,checkup_rule_out_hiv_aids,1,Yes
+REC94,S411H,checkup_rule_out_hiv_aids,8,Don't know
+REC94,S413,pregnancy_sis_affiliation,0,No
+REC94,S413,pregnancy_sis_affiliation,1,Yes

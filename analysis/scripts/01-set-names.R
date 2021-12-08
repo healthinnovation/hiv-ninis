@@ -51,7 +51,11 @@ variables_to_filter_for_pivot <- c(
   "time_get_primary_source_drinking_water", "highest_year_edu", 
   "edu_single_years", "grade_edu_current_year", 
   "edu_single_years_current_year", "grade_edu_previous_year",
-  "edu_single_years_previous_year", "length_time_knows_last_partner"
+  "edu_single_years_previous_year", "length_time_knows_last_partner",
+  "conglomerate_ps", "age_last_sexual_partner", "conglomerate", "stratum",
+  "months_pregnancy_first_control", "months_pregnancy_last_prenatal_checkup",
+  "months_pregnancy_syphilis_testing", "months_pregnancy_hiv_testing",
+  "province"
 )
 
 dataset %>%
@@ -72,7 +76,9 @@ dataset %>%
 
 variable_values_file <- "variable-values.csv"
 path_variable_values_file <- path(path_variables_dir, variable_values_file)
-variable_values <- read_csv(path_variable_values_file)
+variable_values <- read_csv(
+  path_variable_values_file, col_types = cols(.default = "c")
+)
 
 # Filter variables without value description ------------------------------
 
