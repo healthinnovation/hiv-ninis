@@ -113,6 +113,16 @@ surveys_bind$RECH1 <-
     )
   )
 
+surveys_bind$PROGRAMAS_SOCIALES <- 
+  surveys_bind$PROGRAMAS_SOCIALES %>% 
+  mutate(
+    CASEID = ifelse(
+      nchar(QH96) == 1,
+      paste0(HHID, "  ", QH96),
+      paste0(HHID, " ", QH96)
+    )
+  )
+
 full_dataset <- 
   surveys_bind %>%
   reduce(left_join, by = c("CASEID", "YEAR"))
@@ -122,7 +132,7 @@ full_dataset <-
 dataset_raw <- 
   full_dataset %>% 
   select(
-    !starts_with(c("PATH", "MODULE", "SURVEY", "HHID", "HVIDX", "QSNUMERO"))
+    !starts_with(c("PATH", "MODULE", "SURVEY", "HHID", "HVIDX", "QSNUMERO", "QH96"))
   )
 
 # Filter variables with high rate of missing values ------------------------
