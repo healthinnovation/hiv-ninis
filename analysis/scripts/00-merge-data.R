@@ -2,7 +2,7 @@ library(fs)
 library(haven)
 library(purrr)
 library(dplyr)
-library(data.table)
+# library(data.table)
 library(readr)
 library(stringi)
 library(tidyr)
@@ -15,6 +15,8 @@ variables_file_path <- path(variables_path, variables_file)
 variables_dtfr <- read_csv(variables_file_path)
 
 endes_surveys <- unique(variables_dtfr$survey)
+excluded_surveys <- c("REC94", "PROGRAMAS_SOCIALES")
+endes_surveys <- setdiff(endes_surveys, excluded_surveys)
 
 # Read raw surveys --------------------------------------------------------
 
@@ -30,19 +32,6 @@ surveys_raw <- map(endes_files, read_sav)
 # Select variables --------------------------------------------------------
 
 variables <- split(variables_dtfr$variable, variables_dtfr$survey)
-
-# variables_path <- path("data", "variables")
-# variables_files <- dir_ls(variables_path, recurse = TRUE, glob = "*.txt")
-# variables <- map(variables_files, scan, what = character(), quiet = TRUE)
-# names(variables) <- path_ext_remove(path_file(variables_files))
-# 
-# survey_dtfrs <- list()
-# for (survey_name in names(variables)) {
-#   survey <- rep(survey_name, length(variables[[survey_name]]))
-#   survey_dtfrs[[survey_name]] <- 
-#     tibble(survey, variable = variables[[survey_name]])
-# }
-# survey_variables <- bind_rows(survey_dtfrs)
 
 surveys_select <- surveys_raw
 
@@ -91,7 +80,11 @@ for (survey in names(surveys)) {
     )
 }
 
-# Merge surveys -----------------------------------------------------------
+# for (i in seq_along(surveys_bind)) {
+#   write_csv(surveys_bind[[i]], paste0("data/interim/", names(surveys_bind)[i], ".csv"))
+# }
+
+# Create CASEID -----------------------------------------------------------
 
 surveys_bind$CSALUD01 <- 
   surveys_bind$CSALUD01 %>% 
@@ -113,19 +106,33 @@ surveys_bind$RECH1 <-
     )
   )
 
-surveys_bind$PROGRAMAS_SOCIALES <- 
-  surveys_bind$PROGRAMAS_SOCIALES %>% 
-  mutate(
-    CASEID = ifelse(
-      nchar(QH96) == 1,
-      paste0(HHID, "  ", QH96),
-      paste0(HHID, " ", QH96)
-    )
-  )
+# Check number of rows and number of unique CASEID ------------------------
+
+nrow_by_survey_lst <- map(
+  surveys_bind, 
+  function(x) {
+    x %>% 
+      group_by(YEAR) %>% 
+      summarise(n = n(), n_caseid = length(unique(CASEID)))
+  }
+)
+n_years <- length(unique(surveys_bind$RECH1$YEAR))
+survey_names <- names(surveys_bind)
+nrow_by_survey <- tibble(
+  survey = rep(survey_names, each = n_years), bind_rows(nrow_by_survey_lst)
+)
+
+# Merge surveys -----------------------------------------------------------
 
 full_dataset <- 
   surveys_bind %>%
   reduce(left_join, by = c("CASEID", "YEAR"))
+
+# Check number of rows and number of unique CASEID ------------------------
+
+full_dataset %>% 
+  group_by(YEAR) %>% 
+  summarise(n = n(), n_caseid = length(unique(CASEID)))
 
 # Filter some unnecessary columns ----------------------------------------
 
@@ -170,4 +177,3 @@ data_out_path <- path("data", "interim")
 data_out_file_name <- "dataset-without-names.csv"
 data_out_file_path <- path(data_out_path, data_out_file_name)
 write_csv(dataset_select, data_out_file_path, na = "")
-

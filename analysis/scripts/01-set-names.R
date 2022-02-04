@@ -8,7 +8,7 @@ library(tidyr)
 path_variables_dir <- path("data", "variables")
 variable_names_file <- "variable-names.csv"
 path_variable_names_file <- path(path_variables_dir, variable_names_file)
-variable_names <- read_csv(path_variable_names_file)
+variable_names_all <- read_csv(path_variable_names_file)
 
 # Read data set without names ---------------------------------------------
 
@@ -18,6 +18,11 @@ path_dataset_wo_names_file <- path(path_interim_data_dir, dataset_wo_names_file)
 dataset_wo_names <- read_csv(
   path_dataset_wo_names_file, col_types = cols(.default = "c")
 )
+
+# Filter variable names ---------------------------------------------------
+
+variable_names_all %>% 
+  filter(variable %in% names(dataset_wo_names)) -> variable_names
 
 # Set variable names ------------------------------------------------------
 
@@ -55,11 +60,11 @@ variables_to_filter_for_pivot <- c(
   "conglomerate_ps", "age_last_sexual_partner", "conglomerate", "stratum",
   "months_pregnancy_first_control", "months_pregnancy_last_prenatal_checkup",
   "months_pregnancy_syphilis_testing", "months_pregnancy_hiv_testing",
-  "province"
+  "province", "weighting_factor_15_older", "conglomerate_cs", "stratum_household"
 )
 
 dataset %>%
-  select(-all_of(variables_to_filter_for_pivot)) %>% 
+  select(-any_of(variables_to_filter_for_pivot)) %>% 
   pivot_longer(
     cols = everything(),
     names_to = "variable_name",

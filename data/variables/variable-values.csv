@@ -290,9 +290,9 @@ RE758081,V762AX,source_condoms_other,0,No
 RE758081,V762AX,source_condoms_other,1,Yes
 RE758081,V762AZ,source_condoms_dont_know,0,No
 RE758081,V762AZ,source_condoms_dont_know,1,Yes
-RE758081,V763A,diagnosted_std_last_12_months,0,No
-RE758081,V763A,diagnosted_std_last_12_months,1,Yes
-RE758081,V763A,diagnosted_std_last_12_months,8,Don't know
+RE758081,V763A,diagnosted_std_last_12_months_cs,0,No
+RE758081,V763A,diagnosted_std_last_12_months_cs,1,Yes
+RE758081,V763A,diagnosted_std_last_12_months_cs,8,Don't know
 RE758081,V763B,genital_sores_ulcers_last_12_months,0,No
 RE758081,V763B,genital_sores_ulcers_last_12_months,1,Yes
 RE758081,V763B,genital_sores_ulcers_last_12_months,8,Don't know
@@ -688,9 +688,9 @@ REC91,S816W,std_male_sx_other,0,No
 REC91,S816W,std_male_sx_other,1,Yes
 REC91,S816Z,std_male_sx_dont_know,0,No
 REC91,S816Z,std_male_sx_dont_know,1,Yes
-REC91,S817,diagnosed_std_last_12_months,0,No
-REC91,S817,diagnosed_std_last_12_months,1,Yes
-REC91,S817,diagnosed_std_last_12_months,8,Don't know
+REC91,S817,diagnosted_std_last_12_months,0,No
+REC91,S817,diagnosted_std_last_12_months,1,Yes
+REC91,S817,diagnosted_std_last_12_months,8,Don't know
 REC91,SREGION,natural_region,1,Lima Metropolitan Area
 REC91,SREGION,natural_region,2,Rest of Coast
 REC91,SREGION,natural_region,3,Highland

@@ -85,7 +85,7 @@ REC91,S816L,std_male_sx_no_symptoms,character
 REC91,S816M,std_male_sx_secretion_pus_pennis,character
 REC91,S816W,std_male_sx_other,character
 REC91,S816Z,std_male_sx_dont_know,character
-REC91,S817,diagnosed_std_last_12_months,character
+REC91,S817,diagnosted_std_last_12_months,character
 REC91,SREGION,natural_region,character
 RE516171,V704,partner_occupation,character
 RE516171,V705,standardized_partner_occupation,character
@@ -140,7 +140,7 @@ RE758081,V762AV,source_condoms_other_hospital_other_ffaa_pnp,character
 RE758081,V762AW,source_condoms_other_hospital_other_municipality,character
 RE758081,V762AX,source_condoms_other,character
 RE758081,V762AZ,source_condoms_dont_know,character
-RE758081,V763A,diagnosted_std_last_12_months,character
+RE758081,V763A,diagnosted_std_last_12_months_cs,character
 RE758081,V763B,genital_sores_ulcers_last_12_months,character
 RE758081,V763C,foul_genital_discharge_last_12_months,character
 RE758081,V766A,no_sex_partners_other_partner_last_12_months,numeric
@@ -262,6 +262,7 @@ CSALUD01,QS608,get_aids_embraces_caress_cs,character
 CSALUD01,QS609,get_aids_mosquito_bites_cs,character
 CSALUD01,QS610,get_aids_share_utensils_cs,character
 CSALUD01,QS611,reduce_risk_aids_using_condom_cs,character
+CSALUD01,QHCLUSTER,conglomerate_cs,
 REC0111,V022,stratum,
 REC0111,V001,conglomerate,
 REC91,SPROVIN,province,

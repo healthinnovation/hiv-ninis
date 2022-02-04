@@ -1,7 +1,12 @@
 ---
-title: "Exploratory Data Analysis"
+title: "HIV-Ninis"
+subtitle: "Exploratory data analysis"
+author: Diego Villa
+date: "`r Sys.time()`"
 output: html_notebook
 ---
+
+# Packages
 
 ```{r}
 library(fs)
@@ -10,20 +15,277 @@ library(dplyr)
 library(ggplot2)
 library(scales)
 library(sf)
+library(srvyr)
+library(scales)
+```
+
+# Data loading
+
+```{r}
+#TODO Set column types
+dataset <- read_csv('../../data/processed/dataset.csv')
+```
+
+# Data validation
+
+Check that there is no duplicates in the data.
+
+```{r}
+dataset %>% 
+  group_by(year) %>% 
+  summarise(n = n(), n_caseid = length(unique(caseid)))
+```
+
+# Exploratory data analysis
+
+## HIV screening by age groups and wealth index through the years
+
+```{r}
+#TODO Change age to age_women
+
+dataset %>% 
+  filter(age >= 15) %>%  
+  mutate(
+    wealth_index = factor(
+      wealth_index, 
+      c('Poorest', 'Poor', 'Middle', 'Rich', 'Richest')
+    ),
+    natural_region = factor(
+      natural_region,
+      c('Lima Metropolitan Area', 'Rest of Coast', 'Highland', 'Jungle')
+    ),
+    highest_edu_level = factor(
+      highest_edu_level,
+      c('No education', 'Primary', 'Secondary', 'Higher')
+    )
+  ) -> dataset_analysis
 ```
 
 ```{r}
-dataset <- read_csv('../../data/processed/hiv-ninis-dataset.csv')
+dataset_analysis %>% 
+  mutate(weighting_factor_scaled = weighting_factor / 1000000) %>% 
+  as_survey_design(
+    ids = conglomerate, strata = stratum, weight = weighting_factor_scaled, 
+    nest = TRUE
+  ) -> data_analysis_srvy
 ```
 
 ```{r}
-dataset$age <- as.numeric(dataset$age)
-summary(dataset$age)
+data_analysis_srvy %>% 
+  filter(age <= 29) %>% 
+  # group_by(year) %>% 
+  mutate(
+    age_group = cut(
+      age,
+      quantile(age), include.lowest = TRUE, right = FALSE
+    ),
+    nini = if_else(
+      currently_attending_school == "No" & respondent_currently_working == "No",
+      "Yes", "No"
+    )
+  ) %>% 
+  mutate(
+    wealth = factor(
+      case_when(
+        wealth_index == "Poorest" ~ "Poor",
+        wealth_index == "Poor" ~ "Poor",
+        wealth_index == "Middle" ~ "Middle",
+        wealth_index == "Rich" ~ "Rich",
+        wealth_index == "Richest" ~ "Rich"
+      ),
+      levels = c("Poor", "Middle", "Rich")
+    )
+  ) %>% 
+  mutate(
+    nini_wealth = factor(
+      case_when(
+        nini == "Yes" & wealth == "Poor" ~ "Nini: Poor",
+        nini == "Yes" & wealth == "Middle" ~ "Nini: Middle",
+        nini == "Yes" & wealth == "Rich" ~ "Nini: Rich",
+        nini == "No" & wealth == "Poor" ~ "No-nini: Poor",
+        nini == "No" & wealth == "Middle" ~ "No-nini: Middle",
+        nini == "No" & wealth == "Rich" ~ "No-nini: Rich"
+      ),
+      levels = c(
+        "Nini: Poor", "Nini: Middle", "Nini: Rich", "No-nini: Poor", 
+        "No-nini: Middle", "No-nini: Rich"
+      )
+    )
+  ) ->
+  data_ninis_srvy
 ```
 
 ```{r}
-table(dataset$year)
+data_ninis_srvy %>% 
+  filter(
+    across(c(nini_wealth, tested_aids_hiv_12_months), ~ !is.na(.x)),
+    nini == "Yes"
+  ) %>% 
+  group_by(age_group, year, nini_wealth) %>% 
+  summarise(
+    prop_screen = survey_mean(
+      tested_aids_hiv_12_months == "Yes", vartype = "ci", proportion = TRUE
+    ),
+    .groups = "drop"
+  ) ->
+  data_plot_1
 ```
+
+```{r fig.width=6, fig.height=12}
+data_plot_1 %>% 
+  ggplot(aes(year, prop_screen, color = nini_wealth)) +
+  geom_errorbar(
+    aes(ymin = prop_screen_low, ymax = prop_screen_upp), width = 0.25, 
+    linetype = "dashed"
+  ) +
+  geom_line() +
+  geom_point(size = 4) +
+  scale_y_continuous(labels = percent) +
+  theme_bw() +
+  theme(legend.position = "top") +
+  facet_wrap(~ age_group, ncol = 1)
+```
+
+
+Check number of cases by age group.
+
+```{r}
+dataset_analysis %>% 
+  group_by(age_group) %>% 
+  summarise(cases = n())
+```
+
+```{r}
+# dataset_analysis %>% 
+#   filter(tested_aids_hiv_12_months %in% c("Yes", "No")) -> 
+#   dataset_analysis_screen
+```
+
+```{r}
+# dim(dataset_analysis_screen)
+```
+
+```{r}
+# dataset_analysis_screen %>% 
+#   group_by(year) %>% 
+#   summarise(n = n(), n_caseid = length(unique(caseid)))
+```
+
+Raw number and proportion of women in every age group that answered or not if they got tested for HIV in the last 12 months at the time of the survey in each year.
+
+```{r}
+dataset_analysis %>% 
+  group_by(year, age_group, tested_aids_hiv_12_months) %>% 
+  summarise(cases = n()) %>% 
+  mutate(prop_cases = cases / sum(cases))
+```
+```{r}
+# dataset_analysis %>% 
+#   mutate(weighting_factor_scaled = weighting_factor / 1000000) %>% 
+#   as_survey_design(
+#     ids = conglomerate, strata = stratum, weight = weighting_factor_scaled, 
+#     nest = TRUE
+#   ) -> data_analysis_srvyr
+
+dataset_analysis %>% 
+  # filter(across(tested_aids_hiv_12_months, ~ !is.na(.x))) %>% 
+  mutate(weighting_factor_scaled = weighting_factor / 1000000) %>% 
+  as_survey_design(
+    ids = conglomerate, strata = stratum, weight = weighting_factor_scaled, 
+    nest = TRUE
+  ) -> data_analysis_srvyr
+```
+
+```{r}
+data_analysis_srvyr %>% 
+  filter(across(tested_aids_hiv_12_months, ~ !is.na(.x))) %>% 
+  group_by(year, age_group, tested_aids_hiv_12_months) %>% 
+  summarise(
+    prop_cases = survey_mean(vartype = "ci", proportion = TRUE)
+  ) %>% 
+  ungroup() -> 
+  screening_year_age_groups
+```
+
+```{r fig.height=10}
+screening_year_age_groups %>% 
+  ggplot(
+    aes(
+      x = age_group, y = prop_cases, fill = tested_aids_hiv_12_months, 
+      ymax = prop_cases_upp, ymin = prop_cases_low  
+    )
+  ) +
+  geom_col(position = "dodge") +
+  geom_errorbar(position = "dodge") + 
+  scale_y_continuous(labels = scales::percent) +
+  facet_wrap(~ year, ncol = 2) +
+  theme_minimal() +
+  theme(legend.position = "top")
+```
+
+```{r}
+dataset_analysis %>% 
+  group_by(tested_aids_hiv_12_months, currently_attending_school) %>% 
+  summarise(cases = n()) %>% 
+  mutate(prop_cases = cases / sum(cases))
+```
+
+
+```{r}
+data_analysis_srvyr %>% 
+  mutate(
+    nini = if_else(
+      currently_attending_school == 'No' & respondent_currently_working == 'No',
+      "Yes", "No"
+    )
+  ) %>% 
+  group_by(year, age_group, tested_aids_hiv_12_months) %>% 
+  summarise(
+    prop_cases = survey_mean(vartype = "ci", proportion = TRUE)
+  ) %>% 
+  ungroup() -> 
+  screening_year_age_groups
+```
+
+
+```{r}
+dataset_analysis %>% 
+  filter(age_group != "[30,49]") %>% 
+  group_by(ever_been_tested_aids) %>% 
+  summarise(cases = n()) %>% 
+  mutate(prctg = 100 * cases / sum(cases))
+```
+
+
+```{r}
+dataset_analysis %>% 
+  group_by(diagnosted_std_last_12_months) %>% 
+  summarise(cases = n()) %>% 
+  mutate(prctg = 100 * cases / sum(cases))
+```
+
+```{r}
+dataset_analysis %>% 
+  group_by(diagnosted_std_last_12_months_cs) %>% 
+  summarise(cases = n()) %>% 
+  mutate(prctg = 100 * cases / sum(cases))
+```
+
+```{r}
+dataset_analysis %>% 
+  group_by(respondent_currently_working, type_earnings_work) %>% 
+  summarise(cases = n()) %>% 
+  mutate(prctg = 100 * cases / sum(cases))
+```
+
+
+```{r}
+dataset_analysis %>% 
+  group_by(respondent_currently_working, work_last_12_months) %>% 
+  summarise(cases = n()) %>% 
+  mutate(prctg = 100 * cases / sum(cases))
+```
+
 
 ```{r}
 dataset_eda <- 

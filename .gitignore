@@ -46,3 +46,5 @@ renv/*
 data/interim/*.csv
 data/processed/*.csv
 
+# .html
+*.html
