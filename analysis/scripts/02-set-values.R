@@ -8,7 +8,7 @@ library(tidyr)
 path_variables_dir <- path("data", "variables")
 variable_values_file <- "variable-values.csv"
 path_variable_values_file <- path(path_variables_dir, variable_values_file)
-variable_values <- read_csv(path_variable_values_file)
+variable_values_all <- read_csv(path_variable_values_file)
 
 # Read data set without values --------------------------------------------
 
@@ -18,6 +18,11 @@ path_dataset_wo_values_file <- path(path_interim_data_dir, dataset_wo_values_fil
 dataset_wo_values <- read_csv(
   path_dataset_wo_values_file, col_types = cols(.default = "c")
 )
+
+# Filter variable names ---------------------------------------------------
+
+variable_values_all %>% 
+  filter(variable_name %in% names(dataset_wo_values)) -> variable_values
 
 # Set variable values -----------------------------------------------------
 
@@ -30,6 +35,12 @@ for (row in 1:nrow(variable_values)) {
   
   dataset[variable_name][dataset[variable_name] == value] <- value_description
 }
+
+# Check number of rows and number of unique CASEID ------------------------
+
+dataset %>% 
+  group_by(year) %>% 
+  summarise(n = n(), n_caseid = length(unique(caseid)))
 
 # Export wrangled data set ------------------------------------------------
 
